@@ -12,10 +12,10 @@ const Home: React.FC = () => {
     <div className="bg-background text-accent">
       <TracingBeam>
         <HeroSection />
-        <ActivitySection />
         <LocationSection />
-        <HousingSection />
         <SpeakersSection />
+        <ActivitySection />
+        <HousingSection />
         <PerksSection />
       </TracingBeam>
     </div>

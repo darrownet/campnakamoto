@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import SpeakerCard from "./SpeakerCard";
 import Modal from "./Modal";
@@ -16,25 +15,25 @@ interface Speaker {
 
 const speakers: Speaker[] = [
   {
-    name: "Satoshi Nakamoto",
-    title: "Creator of Bitcoin",
+    name: "Coming Soon",
+    title: "Coming Soon",
     imageUrl: "https://i.nostr.build/AdWdB2uy3E3FVFGS.png",
-    description: "The mysterious and pseudonymous creator of Bitcoin.",
-    stats: "Satoshi Nakamoto is the name used by the presumed pseudonymous person or persons who developed bitcoin, authored the bitcoin white paper, and created and deployed bitcoin's original reference implementation."
+    description: "Coming Soon",
+    stats: "Coming Soon"
   },
   {
-    name: "Andreas Antonopoulos",
-    title: "Bitcoin Advocate",
-    imageUrl: "https://i.nostr.build/gFPYOgJhWf6JkzPr.png",
-    description: "One of the most well-known Bitcoin advocates and educators.",
-    stats: "Andreas M. Antonopoulos is a Greek-British bitcoin advocate, tech entrepreneur, and author. He is a host on the Let's Talk Bitcoin podcast and a teaching fellow for the M.Sc. Digital Currencies at the University of Nicosia."
+    name: "Coming Soon",
+    title: "Coming Soon",
+    imageUrl: "https://i.nostr.build/AdWdB2uy3E3FVFGS.png",
+    description: "Coming Soon",
+    stats: "Coming Soon"
   },
   {
-    name: "Adam Back",
-    title: "CEO of Blockstream",
-    imageUrl: "https://i.nostr.build/1eEAJrd6TBxOdcQK.png",
-    description: "Inventor of Hashcash and CEO of Blockstream.",
-    stats: "Adam Back is a British cryptographer and cypherpunk. He invented hashcash, a proof-of-work system used in bitcoin mining, and is the CEO of Blockstream, a blockchain technology company."
+    name: "Coming Soon",
+    title: "Coming Soon",
+    imageUrl: "https://i.nostr.build/AdWdB2uy3E3FVFGS.png",
+    description: "Coming Soon",
+    stats: "Coming Soon"
   },
 ];
 

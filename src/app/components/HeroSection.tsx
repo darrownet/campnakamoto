@@ -1,12 +1,15 @@
 "use client";
 
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import * as THREE from 'three';
 
 const HeroSection: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
   const controls = useAnimation();
+  const [videoReady, setVideoReady] = useState(false);
+  const [videoError, setVideoError] = useState(false);
 
   useEffect(() => {
     if (!canvasRef.current) return;
@@ -46,9 +49,30 @@ const HeroSection: React.FC = () => {
     };
   }, []);
 
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.addEventListener('canplay', () => setVideoReady(true));
+      videoRef.current.addEventListener('error', () => setVideoError(true));
+    }
+  }, []);
+
   return (
     <div className="relative w-full h-screen flex items-start justify-center overflow-hidden pt-24 sm:pt-32">
-      <canvas ref={canvasRef} className="absolute inset-0 w-full h-full" />
+      {!videoReady && !videoError && (
+        <canvas ref={canvasRef} className="absolute inset-0 w-full h-full" />
+      )}
+      {!videoError && (
+        <video
+          ref={videoRef}
+          autoPlay
+          loop
+          muted
+          playsInline
+          className={`absolute inset-0 w-full h-full object-cover ${videoReady ? '' : 'hidden'}`}
+        >
+          <source src="/CampCitadel.mp4" type="video/mp4" />
+        </video>
+      )}
       <div className="relative z-10 text-center px-4 max-w-7xl mx-auto">
         <motion.h1 
           className="text-4xl sm:text-6xl md:text-7xl font-bold mb-6 text-primary"
@@ -64,7 +88,7 @@ const HeroSection: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          Your Bitcoin Weekend Getaway
+          Your Bitcoin Weekend Retreat
         </motion.p>
         <motion.button
           className="px-8 py-4 bg-orange-500 text-white font-semibold rounded-lg shadow-lg hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-green-300 focus:ring-opacity-50 transform transition-all duration-300 ease-in-out"
@@ -72,11 +96,10 @@ const HeroSection: React.FC = () => {
           whileTap={{ scale: 0.95 }}
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0 }}
-          onClick={() => console.log('Buy Tickets button clicked')}
+          // transition={{ duration: 0.3 }}
         >
-          <a target="_blank" href="https://www.ticketspice.com">
-          Buy Tickets
+          <a target="_blank" href="https://www.ticketspice.com" rel="noopener noreferrer">
+            Buy Tickets
           </a>
         </motion.button>
       </div>

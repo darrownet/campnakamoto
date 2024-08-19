@@ -34,6 +34,7 @@ const SpeakerCard: React.FC<SpeakerCardProps> = ({ name, title, imageUrl, onLear
             objectFit="cover"
             className="rounded-xl transition-all duration-300 ease-out group-hover/card:scale-110"
             alt={name}
+            style={{ objectFit: "cover" }}
           />
         </CardItem>
         <div className="relative z-20 flex flex-col h-full justify-between p-6">
@@ -45,7 +46,7 @@ const SpeakerCard: React.FC<SpeakerCardProps> = ({ name, title, imageUrl, onLear
               {name}
             </CardItem>
           </div>
-          <div className="relative z-20 flex flex-col h-full justify-between p-6">
+          <div className="relative z-20 flex flex-col h-full justify-between my-2 p-6">
           <CardItem
               as="p"
               translateZ={60}

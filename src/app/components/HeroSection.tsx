@@ -9,7 +9,7 @@ const HeroSection: React.FC = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const controls = useAnimation();
   const [videoReady, setVideoReady] = useState(false);
-  const [videoError, setVideoError] = useState(false);
+  const [videoError, setVideoError] = useState<string | null>(null);
 
   useEffect(() => {
     if (!canvasRef.current) return;
@@ -51,8 +51,14 @@ const HeroSection: React.FC = () => {
 
   useEffect(() => {
     if (videoRef.current) {
-      videoRef.current.addEventListener('canplay', () => setVideoReady(true));
-      videoRef.current.addEventListener('error', () => setVideoError(true));
+      videoRef.current.addEventListener('canplay', () => {
+        console.log('Video can play');
+        setVideoReady(true);
+      });
+      videoRef.current.addEventListener('error', (e) => {
+        console.error('Video error:', e);
+        setVideoError('Error loading video');
+      });
     }
   }, []);
 
@@ -61,18 +67,20 @@ const HeroSection: React.FC = () => {
       {!videoReady && !videoError && (
         <canvas ref={canvasRef} className="absolute inset-0 w-full h-full" />
       )}
-      {!videoError && (
-        <video
-          ref={videoRef}
-          autoPlay
-          loop
-          muted
-          playsInline
-          className={`absolute inset-0 w-full h-full object-cover ${videoReady ? '' : 'hidden'}`}
-        >
-          <source src="/CampCitadel.mp4" type="video/mp4" />
-        </video>
-      )}
+      <video
+        ref={videoRef}
+        autoPlay
+        loop
+        muted
+        playsInline
+        className={`absolute inset-0 w-full h-full object-cover ${videoReady ? '' : 'hidden'}`}
+        onLoadedMetadata={() => console.log('Video metadata loaded')}
+        onPlay={() => console.log('Video started playing')}
+      >
+        <source src="https://v.nostr.build/PjTl8NCpnQec2iJl.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      {videoError && <div className="text-red-500">{videoError}</div>}
       <div className="relative z-10 text-center px-4 max-w-7xl mx-auto">
         <motion.h1 
           className="text-4xl sm:text-6xl md:text-7xl font-bold mb-6 text-primary"
@@ -96,7 +104,6 @@ const HeroSection: React.FC = () => {
           whileTap={{ scale: 0.95 }}
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
-          // transition={{ duration: 0.3 }}
         >
           <a target="_blank" href="https://www.ticketspice.com" rel="noopener noreferrer">
             Buy Tickets

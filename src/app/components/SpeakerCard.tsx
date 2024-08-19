@@ -28,14 +28,16 @@ const SpeakerCard: React.FC<SpeakerCardProps> = ({ name, title, imageUrl, onLear
           translateZ={100}
           className="w-full h-full absolute inset-0"
         >
-          <Image
-            src={imageUrl}
-            layout="fill"
-            objectFit="cover"
-            className="rounded-xl transition-all duration-300 ease-out group-hover/card:scale-110"
-            alt={name}
-            style={{ objectFit: "cover" }}
-          />
+          <div className="relative w-full h-full">
+            <Image
+              src={imageUrl}
+              alt={name}
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              style={{ objectFit: "cover" }}
+              className="rounded-xl transition-all duration-300 ease-out group-hover/card:scale-110"
+            />
+          </div>
         </CardItem>
         <div className="relative z-20 flex flex-col h-full justify-between p-6">
           <div>
@@ -47,7 +49,7 @@ const SpeakerCard: React.FC<SpeakerCardProps> = ({ name, title, imageUrl, onLear
             </CardItem>
           </div>
           <div className="relative z-20 flex flex-col h-full justify-between my-2 p-6">
-          <CardItem
+            <CardItem
               as="p"
               translateZ={60}
               className="text-orange-500 text-sm"
@@ -64,7 +66,7 @@ const SpeakerCard: React.FC<SpeakerCardProps> = ({ name, title, imageUrl, onLear
                 translateZ={20}
                 as="button"
                 onClick={onLearnMore}
-                className=" px-4 mb-4 rounded-xl bg-orange-500 text-white text-sm font-bold hover:bg-white hover:text-orange-500 border-2 border-transparent hover:border-orange-500"
+                className="px-4 mb-4 rounded-xl bg-orange-500 text-white text-sm font-bold hover:bg-white hover:text-orange-500 border-2 border-transparent hover:border-orange-500"
               >
                 Learn More
               </CardItem>

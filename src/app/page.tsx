@@ -1,6 +1,5 @@
 import React from 'react';
 import HeroSection from './components/HeroSection';
-import { TracingBeam } from './components/TracingBeam';
 import SpeakersSection from './components/SpeakersSection';
 import ActivitySection from './components/ActivitySection';
 import LocationSection from './components/LocationSection';
@@ -10,14 +9,12 @@ import PerksSection from './components/PerksSection';
 const Home: React.FC = () => {
   return (
     <div className="bg-background text-accent">
-      <TracingBeam>
         <HeroSection />
         <LocationSection />
         <SpeakersSection />
         <ActivitySection />
         <HousingSection />
         <PerksSection />
-      </TracingBeam>
     </div>
   );
 }

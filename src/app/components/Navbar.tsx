@@ -10,12 +10,12 @@ const Navbar: React.FC = () => {
   const backgroundColor = useTransform(
     scrollY,
     [0, 100],
-    ['rgba(255, 255, 255, 0)', 'rgba(0, 0, 0, 0.8)']
+    ['rgba(0, 0, 0, 0)', 'rgba(0, 0, 0, 0.8)']
   );
   const textColor = useTransform(
     scrollY,
     [0, 100],
-    ['rgb(0, 0, 0)', 'rgb(255, 255, 255)']
+    ['rgb(255, 255, 255)', 'rgb(255, 255, 255)']
   );
 
   const toggleMenu = () => setIsOpen(!isOpen);
@@ -44,7 +44,7 @@ const Navbar: React.FC = () => {
             <motion.div key={item.href} style={{ color: textColor }}>
               <Link 
                 href={item.href} 
-                className="text-lg hover:text-gray-600 transition duration-300"
+                className="text-lg hover:text-gray-300 transition duration-300"
               >
                 {item.label}
               </Link>
@@ -75,7 +75,7 @@ const Navbar: React.FC = () => {
       </div>
       {isOpen && (
         <motion.div 
-          className="md:hidden bg-white bg-opacity-90"
+          className="md:hidden bg-black bg-opacity-90"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
@@ -85,7 +85,7 @@ const Navbar: React.FC = () => {
             <Link
               key={item.href}
               href={item.href}
-              className="block py-2 px-4 text-sm text-black hover:bg-gray-200"
+              className="block py-2 px-4 text-sm text-white hover:bg-gray-800"
               onClick={toggleMenu}
             >
               {item.label}

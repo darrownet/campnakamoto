@@ -63,8 +63,13 @@ h3 {
   font-weight: bold;
   font-style: normal;
   font-size: 24px;
-  margin-top: 16px;
+  margin-top: 24px;
   margin-bottom: 8px;
+}
+
+h4 {
+  font-weight: bold;
+  font-style: italic;
 }
 
 p {
@@ -80,6 +85,39 @@ p {
   display: inline-block;
   margin-right: 12px;
 }
+
+.accordion {
+  margin-bottom: 28px;
+  border: 1px solid var(--coolest);
+  border-radius: 16px;
+  overflow: hidden;
+}
+.accordion ul li {
+  margin-bottom: 2px;
+}
+.accordion ul li b {
+  margin-right: 6px;
+}
+.accordion-title {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid var(--coolest);
+  cursor: pointer;
+}
+div.accordion-item:last-child .accordion-title {
+  border-bottom: none;
+}
+.accordion-title div:first-child {
+  margin-right: 8px;
+  text-decoration: underline;
+}
+.accordion-title div:first-child:hover {
+  color: var(--warm);
+}
+.accordion-content {
+  padding: 10px;
+  border-bottom: 1px solid var(--coolest);
+ }
 
 .nav-wrapper {
   position: fixed;
@@ -103,17 +141,23 @@ p {
 .nav-wrapper .site-title {
   margin-top: 5px;
   font-family: 'Luckiest Guy', cursive;
-  font-size: 30px;
+  font-size: 18px;
   letter-spacing: 2px;
 }
 .nav-wrapper .nav-link {
   margin-bottom: 2px;
   font-family: 'Fredoka', sans-serif;
   padding-left: 21px;
-  font-size: 22px;
+  font-size: 18px;
+  line-height: 22px;
 }
 .nav-wrapper .nav-link a:hover {
   color: var(--warm);
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 .nav-mobile {
   position: absolute;
@@ -147,8 +191,6 @@ p {
   letter-spacing: 3px;
   text-shadow: 2px 2px 2px #CE5937;
 }
-
-
 
 .speaker-card-container {
   height: 128px;

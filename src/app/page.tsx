@@ -5,16 +5,18 @@ import ActivitySection from './components/ActivitySection';
 import LocationSection from './components/LocationSection';
 import DiningSection from './components/DiningSection';
 import HousingSection from './components/HousingSection';
+import SponsorsSection from "@/app/components/SponsorsSection";
 
 const Home: React.FC = () => {
   return (
     <div>
-        <HeroSection />
-        <LocationSection />
-        <SpeakersSection />
-        <ActivitySection />
-        <HousingSection />
-        <DiningSection />
+      <HeroSection />
+      <LocationSection />
+      <SpeakersSection />
+      <ActivitySection />
+      <HousingSection />
+      <DiningSection />
+      <SponsorsSection />
     </div>
   );
 }

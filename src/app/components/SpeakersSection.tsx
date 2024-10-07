@@ -93,7 +93,7 @@ const SpeakersSection: React.FC = () => {
 const [selectedSpeaker, setSelectedSpeaker] = useState<Speaker | null>(null);
 
   return (
-    <SectionWrapper id="speakers" title="Speakers">
+    <SectionWrapper id="speakers" title="Participants & Panelists">
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {speakers.map((speaker, index) => (
           <motion.div

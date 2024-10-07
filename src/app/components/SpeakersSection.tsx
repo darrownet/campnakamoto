@@ -86,6 +86,22 @@ const speakers: Speaker[] = [
     imageUrl: "/images/anders_jensen.jpg",
     description: "Anders Jensen has made a name for himself through successfully organizing and hosting Bitcoin events. His events are not just gatherings but platforms for education, networking, and advocacy within the Bitcoin community. Jensen's ability to bring together diverse groups of Bitcoin enthusiasts and professionals has made him a pivotal figure in expanding Bitcoin's reach and understanding.",
     stats: ""
+  },
+  {
+    name: "Mark Moss",
+    title: "",
+    twitterHandle: "@1MarkMoss",
+    imageUrl: "/images/mark_moss.jpg",
+    description: "Mark Moss is your go-to guide in the wild world of finance, with a special twist of Bitcoin advocacy. From his home base in San Clemente, California, Mark has navigated the dot-com bubble, real estate, and now rides the Bitcoin wave, sharing his journey through \"The Mark Moss Show\" and Market Disruptors on YouTube. He's not just about understanding the crypto-verse; he's about changing how you think about money.",
+    stats: ""
+  },
+  {
+    name: "Matthew Lysiak",
+    title: "",
+    twitterHandle: "@Matthewlysiak",
+    imageUrl: "/images/matthew_lysiak.jpg",
+    description: "Matthew's knack for uncovering the quirky side of life occasionally touches on Bitcoin's impact on culture, health, and those weird historical facts you share at parties. If there's an unconventional angle or a story where Bitcoin intersects with daily life in the most unexpected ways, Matthew's tweeting about it, probably with a bit of conspiracy for zest and a chuckle for good measure.",
+    stats: ""
   }
 ];
 

@@ -80,7 +80,7 @@ const ActivitySection: React.FC = () => {
             Satoshi&apos;s gift.
           </li>
           <li><i>🍸</i><strong>Cocktail Hour Nightly</strong>: Unwind, network, or discuss the day&apos;s gains over
-            crafted cocktails. Here, &apos;mixing&apos; isn&apos;t just for <strike>sats</strike> drinks but for ideas
+            crafted cocktails. Here, &apos;mixing&apos; isn&apos;t just for <s>sats</s> drinks but for ideas
             too.
           </li>
           <li><i>💪</i><strong>Morning Cross-Fit with Larry Lepard</strong>: Start your day with a workout that&apos;s as

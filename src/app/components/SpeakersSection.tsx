@@ -110,7 +110,7 @@ const [selectedSpeaker, setSelectedSpeaker] = useState<Speaker | null>(null);
 
   return (
     <SectionWrapper id="speakers" title="Participants & Panelists">
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-8">
         {speakers.map((speaker, index) => (
           <motion.div
             key={speaker.name}
@@ -126,6 +126,7 @@ const [selectedSpeaker, setSelectedSpeaker] = useState<Speaker | null>(null);
           </motion.div>
         ))}
       </div>
+      <h4>...stay tuned for the reveal of more names that will sweeten your journey down the rabbit hole!</h4>
       <AnimatePresence>
         {selectedSpeaker && (
           <Modal isOpen={!!selectedSpeaker} onClose={() => setSelectedSpeaker(null)}>

@@ -7,7 +7,7 @@ const sportsAndRec = [
     title: 'Boating',
     content: <ul>
       <li><b>Set Sail:</b>Experience the thrill of being captain of your own vessel, even if it&apos;s just for the afternoon.</li>
-      <li><b>Row, Row, Row Your Boat:</b>ELearn the art of navigation without GPS. Just you, the water, and hopefully, not a mermaid.</li>
+      <li><b>Row, Row, Row Your Boat:</b>Learn the art of navigation without GPS. Just you, the water, and hopefully, not a mermaid.</li>
       <li><b>Team Building:</b>Nothing says teamwork like synchronized rowing to avoid becoming a buoy.</li>
     </ul>
   },
@@ -38,9 +38,9 @@ const sportsAndRec = [
   {
     title: 'Parkour',
     content: <ul>
-      <li><b>Urban Jungle Gym:</b>Turn the city into your playground. Every wall and rail is just another obstacle to conquer.</li>
+      <li><b>Urban Jungle Gym:</b>Turn island city into your playground. Every wall and rail is just another obstacle to conquer.</li>
       <li><b>Leap of Faith:</b>From small jumps to big vaults, it&apos;s about overcoming fears and physical barriers. And looking cool doing it.</li>
-      <li><b>Free Running:</b>Because who needs elevators when you can scale the building?</li>
+      <li><b>Free Running:</b>Because who needs elevators when you can scale the Dining Hall?</li>
     </ul>
   },
   {

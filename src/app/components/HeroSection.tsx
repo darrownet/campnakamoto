@@ -82,7 +82,7 @@ const HeroSection: React.FC = () => {
         >
           <span>Welcome to</span>
           <br/>
-          <soan>Camp Nakamoto</soan>
+          <span>Camp Nakamoto</span>
         </motion.h1>
         <motion.h2
             className="text-4xl sm:text-6xl md:text-7xl font-bold mb-6"

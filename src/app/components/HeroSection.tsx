@@ -73,29 +73,39 @@ const HeroSection: React.FC = () => {
       {!videoReady && !videoError && (
         <canvas ref={canvasRef} className="absolute inset-0 w-full h-full" />
       )}
-      <div className="relative z-10 text-center px-4 max-w-7xl mx-auto">
-        <motion.h1 
-          className="text-4xl sm:text-6xl md:text-7xl font-bold mb-6 text-primary"
-          initial={{ opacity: 0, y: -50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
+      <div className="hero-copy">
+        <motion.h1
+            className="text-4xl sm:text-6xl md:text-7xl font-bold mb-6"
+            initial={{opacity: 0, y: -50}}
+            animate={{opacity: 1, y: 0}}
+            transition={{duration: 0.8}}
         >
-          Welcome to Camp Nakamoto
+          <span>Welcome to</span>
+          <br/>
+          <span>Camp Nakamoto</span>
         </motion.h1>
-        <motion.p 
-          className="text-xl sm:text-2xl md:text-3xl mb-10 text-white"
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+        <motion.h2
+            className="text-4xl sm:text-6xl md:text-7xl font-bold mb-6"
+            initial={{opacity: 0, y: -50}}
+            animate={{opacity: 1, y: 0}}
+            transition={{duration: 0.8}}
         >
-          Your Bitcoin Weekend Retreat
-        </motion.p>
+          An Island Family Bitcoin Retreat
+        </motion.h2>
+        <motion.h3
+            className="text-xl sm:text-2xl md:text-3xl mb-10"
+            initial={{opacity: 0, y: 50}}
+            animate={{opacity: 1, y: 0}}
+            transition={{duration: 0.8, delay: 0.2}}
+        >
+          October 10 through October 13, 2025
+        </motion.h3>
         <motion.button
-          className="px-8 py-4 bg-orange-500 text-white font-semibold rounded-lg shadow-lg hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-green-300 focus:ring-opacity-50 transform transition-all duration-300 ease-in-out"
-          whileHover={{ scale: 1.05, boxShadow: "0 0 8px rgb(34 197 94 / 60%)" }}
-          whileTap={{ scale: 0.95 }}
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
+            className="px-8 py-4 bg-orange-500 text-white font-semibold rounded-lg shadow-lg hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-green-300 focus:ring-opacity-50 transform transition-all duration-300 ease-in-out"
+            whileHover={{scale: 1.05, boxShadow: "0 0 8px rgb(34 197 94 / 60%)"}}
+            whileTap={{scale: 0.95}}
+            initial={{opacity: 0, scale: 0.8}}
+            animate={{opacity: 1, scale: 1}}
         >
           <a target="_blank" href="https://www.ticketspice.com" rel="noopener noreferrer">
             Buy Tickets

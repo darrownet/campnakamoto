@@ -59,8 +59,8 @@ const sponsors: Sponsor[] = [
     websiteUrl: 'https://www.bitcoinopportunity.fund/'
   },
   {
-    name: 'Bitcoin News Weely',
-    imageUrl: '/images/logo-bitcoin_news_weekly.png',
+    name: 'Bitcoin News',
+    imageUrl: '/images/logo-bitcoin_news.png',
     twitterUrl: 'https://x.com/BitcoinNewsCom',
     websiteUrl: 'https://bitcoinnews.com/'
   }

@@ -287,7 +287,7 @@ div.accordion-item:last-child .accordion-title {
 }
 .sponsor a {
   position: absolute;
-  top: 6px;
+  bottom: 6px;
   right: 6px;
   width: 24px;
   height: 24px;
@@ -300,7 +300,7 @@ div.accordion-item:last-child .accordion-title {
 .sponsor a:hover {
   width: 28px;
   height: 28px;
-  top: 4px;
+  bottom: 4px;
   right: 4px;
 }
 

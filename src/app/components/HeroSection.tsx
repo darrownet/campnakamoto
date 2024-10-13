@@ -81,7 +81,7 @@ const HeroSection: React.FC = () => {
         >
           An Island Bitcoin Retreat
         </motion.h2>
-          <div className="w-[50%] mx-auto">
+          <div className="hero-logo">
             <img src="/images/camp-nakamoto-badge.png"/>
           </div>
         <motion.h3

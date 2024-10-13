@@ -76,7 +76,7 @@ const speakers: Speaker[] = [
     title: "",
     twitterHandle: "@modernTman",
     imageUrl: "/images/speakers/texas_slim.jpg",
-    description: "Here comes Texas Slim, a man who's as Texan as they come, with a name that sounds like he could've been a character in a spaghetti western, but instead, he's riding the wild plains of the modern food industry. Born and bred in the Lone Star State, Slim has taken the cowboy ethos into the 21st century, lassoing the world of nutrition, agriculture, and blockchain with the finesse of a rodeo champion.",
+    description: "Here comes Texas Slim, a man who's as Texan as they come, with a name that sounds like he could've been a character in a spaghetti western, but instead, he's riding the wild plains of the modern food industry. Born and bred in the Lone Star State, Texas Slim has taken the cowboy ethos into the 21st century, lassoing the world of nutrition, agriculture, and Bitcoin with the finesse of a rodeo champion.",
     stats: ""
   },
   {
@@ -84,7 +84,7 @@ const speakers: Speaker[] = [
     title: "",
     twitterHandle: "@Anders_",
     imageUrl: "/images/speakers/anders_jensen.jpg",
-    description: "Anders Jensen has made a name for himself through successfully organizing and hosting Bitcoin events. His events are not just gatherings but platforms for education, networking, and advocacy within the Bitcoin community. Jensen's ability to bring together diverse groups of Bitcoin enthusiasts and professionals has made him a pivotal figure in expanding Bitcoin's reach and understanding.",
+    description: "Anders Jensen has made a name for himself through successfully organizing and hosting Bitcoin events. His events are not just gatherings but platforms for education, networking, and advocacy within the Bitcoin community. His ability to bring together diverse groups of Bitcoin enthusiasts and professionals has made him a pivotal figure in expanding Bitcoin's reach and understanding.",
     stats: ""
   },
   {
@@ -100,7 +100,7 @@ const speakers: Speaker[] = [
     title: "",
     twitterHandle: "@Matthewlysiak",
     imageUrl: "/images/speakers/matthew_lysiak.jpg",
-    description: "Matthew's knack for uncovering the quirky side of life occasionally touches on Bitcoin's impact on culture, health, and those weird historical facts you share at parties. If there's an unconventional angle or a story where Bitcoin intersects with daily life in the most unexpected ways, Matthew's tweeting about it, probably with a bit of conspiracy for zest and a chuckle for good measure.",
+    description: "Matthew's knack for uncovering the quirky side of life occasionally touches on Bitcoin's impact on culture, health, and those weird historical facts you share at parties. His book \"Fiat Food\" explores how the poor incentives of our financial system have made food both more expensive and less healthy, negitively effecting the way we eat. If there's an unconventional angle, Matthew's tweeting about it, probably with a bit of conspiracy for zest and a chuckle for good measure.",
     stats: ""
   }
 ];

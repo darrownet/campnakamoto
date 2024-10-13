@@ -30,7 +30,7 @@ nav button {
 
 section{
   max-width: 1200px;
-  margin: 64px auto;
+  margin: 32px auto;
   padding: 0 16px;
   font-family: "Fredoka", cursive;
   font-size: 18px;
@@ -80,6 +80,7 @@ p {
 footer {
   text-align: center;
   padding: 6px 0;
+  margin-top: 96px;
   font-family: 'Fredoka', sans-serif;
   color: var(--neutral-light);
   background-color: var(--warmest);

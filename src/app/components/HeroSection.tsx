@@ -72,7 +72,7 @@ const HeroSection: React.FC = () => {
       </video>
       <div className="hero-copy">
         <motion.h2
-            className="text-4xl sm:text-6xl md:text-6xl font-bold mb-6 mx-auto"
+            className="text-5xl sm:text-6xl md:text-6xl mx-auto"
             initial={{opacity: 0, y: -50}}
             animate={{opacity: 1, y: 0}}
             transition={{duration: 0.8}}
@@ -83,12 +83,12 @@ const HeroSection: React.FC = () => {
             <img src="/images/camp-nakamoto-badge.png"/>
           </div>
         <motion.h3
-            className="text-xl sm:text-2xl md:text-3xl mb-10"
+            className="text-xl sm:text-2xl md:text-3xl mb-8"
             initial={{opacity: 0, y: 50}}
             animate={{opacity: 1, y: 0}}
             transition={{duration: 0.8, delay: 0.2}}
         >
-          October 10 through October 13, 2025
+          Thursday, October 9th – Sunday, October 12 2025
         </motion.h3>
         <motion.button
             className="px-8 py-4 bg-orange-500 text-white font-semibold rounded-lg shadow-lg hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-green-300 focus:ring-opacity-50 transform transition-all duration-300 ease-in-out"

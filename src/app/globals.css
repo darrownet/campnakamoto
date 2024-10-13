@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Fredoka', sans-serif;
   scroll-behavior: smooth;
   color: var(--coolest);
 }
@@ -32,7 +32,7 @@ section{
   max-width: 1200px;
   margin: 64px auto;
   padding: 0 16px;
-  font-family: "Fredoka", sans-serif;
+  font-family: "Fredoka", cursive;
   font-size: 18px;
 }
 
@@ -75,6 +75,16 @@ h4 {
 p {
   margin-top: 12px;
   margin-bottom: 12px;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 48px;
+  font-family: 'Fredoka', sans-serif;
+  color: var(--coolest);
+}
+footer a {
+  text-decoration: underline;
 }
 
 
@@ -126,24 +136,20 @@ div.accordion-item:last-child .accordion-title {
   padding: 0 1rem;
   max-width: 80rem;
   margin: 0 auto;
-  font-family: "Fredoka", sans-serif;
+  font-weight: 700;
   color: var(--warmer);
   text-shadow: 5px 5px 5px 5px black;
-}
-.hero-copy h1 {
-  font-family: "Luckiest Guy", cursive;
-  letter-spacing: 4px;
-  text-shadow: 2px 2px 2px var(--coolest);
 }
 .hero-copy h2, .hero-copy h3 {
   border: none;
   box-shadow: none;
+  font-family: "Vollkorn SC", serif;
   text-shadow: 2px 2px 2px var(--coolest);
-  font-family: "Fredoka", sans-serif;
   color: var(--warmer);
 }
 .hero-copy button {
   box-shadow: 2px 2px 2px var(--coolest);
+  font-family: "Fredoka", cursive;
 }
 
 
@@ -168,17 +174,19 @@ div.accordion-item:last-child .accordion-title {
 }
 .nav-wrapper .site-title {
   margin-top: 5px;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Vollkorn SC', serif;
   font-size: 24px;
+  font-weight: 900;
   letter-spacing: 2px;
   line-height: 20px;
+  text-transform: uppercase;
 }
 .nav-wrapper .nav-link {
   display: flex;
   align-items: center;
   margin-bottom: 2px;
   text-align: center;
-  font-family: 'Fredoka', sans-serif;
+  font-family: 'Fredoka', cursive;
   padding-left: 21px;
   font-size: 18px;
   line-height: 22px;

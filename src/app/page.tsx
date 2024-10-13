@@ -6,11 +6,10 @@ import LocationSection from './components/LocationSection';
 import DiningSection from './components/DiningSection';
 import HousingSection from './components/HousingSection';
 import SponsorsSection from './components/SponsorsSection';
-import Footer from './components/Footer';
 
 const Home: React.FC = () => {
   return (
-    <div>
+    <div className="camp-nakamoto-bg">
       <HeroSection />
       <LocationSection />
       <SpeakersSection />
@@ -18,7 +17,6 @@ const Home: React.FC = () => {
       <HousingSection />
       <DiningSection />
       <SponsorsSection />
-      <Footer />
     </div>
   );
 }

@@ -22,6 +22,9 @@ const Navbar: React.FC = () => {
       <div className="nav-container">
         <Link href="/" className="site-title">
           Camp Nakamoto
+          {/*<div>*/}
+          {/*  <img src="/images/camp-nakamoto-badge.png"/>*/}
+          {/*</div>*/}
         </Link>
         <ul className="hidden md:flex nav-links">
           {navItems.map((item) => (

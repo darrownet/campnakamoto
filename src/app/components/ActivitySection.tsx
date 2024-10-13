@@ -38,7 +38,7 @@ const sportsAndRec = [
   {
     title: 'Parkour',
     content: <ul>
-      <li><b>Urban Jungle Gym:</b>Turn island city into your playground. Every wall and rail is just another obstacle to conquer.</li>
+      <li><b>Urban Jungle Gym:</b>Turn Sandy Island&apos;s camp buildings into your playground. Every wall and rail is just another obstacle to conquer.</li>
       <li><b>Leap of Faith:</b>From small jumps to big vaults, it&apos;s about overcoming fears and physical barriers. And looking cool doing it.</li>
       <li><b>Free Running:</b>Because who needs elevators when you can scale the Dining Hall?</li>
     </ul>
@@ -93,7 +93,7 @@ const ActivitySection: React.FC = () => {
           friends, and perhaps discover a new passion!</p>
         <Accordion items={sportsAndRec} />
         <p>At <strong>Camp Nakamoto</strong>, every activity is a node in the network of your camp experience, linking
-          you to new friends, skills, and maybe even your next big investment idea. Dive into activities that are as
+          you to new friends, skills, and maybe even your next big investment idea. This is your chance to dive into activities that are as
           diverse as the bitcoin&apos;s ecosystem.</p>
       </SectionWrapper>
   );

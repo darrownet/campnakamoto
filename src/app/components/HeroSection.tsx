@@ -58,7 +58,9 @@ const HeroSection: React.FC = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-screen flex items-center justify-center overflow-hidden">
+    <div
+        className="relative w-full h-screen flex items-center justify-center overflow-hidden hero-container"
+        style={{maxWidth: '1200px', borderRadius: '4px', margin: '0 auto'}}>
       <video
         ref={videoRef}
         autoPlay
@@ -70,35 +72,25 @@ const HeroSection: React.FC = () => {
         <source src="https://v.nostr.build/PjTl8NCpnQec2iJl.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-      {!videoReady && !videoError && (
-        <canvas ref={canvasRef} className="absolute inset-0 w-full h-full" />
-      )}
       <div className="hero-copy">
-        <motion.h1
-            className="text-4xl sm:text-6xl md:text-7xl font-bold mb-6"
-            initial={{opacity: 0, y: -50}}
-            animate={{opacity: 1, y: 0}}
-            transition={{duration: 0.8}}
-        >
-          <span>Welcome to</span>
-          <br/>
-          <span>Camp Nakamoto</span>
-        </motion.h1>
         <motion.h2
-            className="text-4xl sm:text-6xl md:text-7xl font-bold mb-6"
+            className="text-5xl sm:text-6xl md:text-6xl mx-auto"
             initial={{opacity: 0, y: -50}}
             animate={{opacity: 1, y: 0}}
             transition={{duration: 0.8}}
         >
-          An Island Family Bitcoin Retreat
+          An Island Bitcoin Retreat
         </motion.h2>
+          <div className="w-[50%] mx-auto">
+            <img src="/images/camp-nakamoto-badge.png"/>
+          </div>
         <motion.h3
-            className="text-xl sm:text-2xl md:text-3xl mb-10"
+            className="text-xl sm:text-2xl md:text-3xl mb-8"
             initial={{opacity: 0, y: 50}}
             animate={{opacity: 1, y: 0}}
             transition={{duration: 0.8, delay: 0.2}}
         >
-          October 10 through October 13, 2025
+          Thursday, October 9th – Sunday, October 12 2025
         </motion.h3>
         <motion.button
             className="px-8 py-4 bg-orange-500 text-white font-semibold rounded-lg shadow-lg hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-green-300 focus:ring-opacity-50 transform transition-all duration-300 ease-in-out"

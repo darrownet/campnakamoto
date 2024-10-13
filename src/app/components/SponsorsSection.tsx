@@ -12,55 +12,55 @@ interface Sponsor {
 const sponsors: Sponsor[] = [
   {
     name: 'Unchained',
-    imageUrl: '/images/logo-unchained.png',
+    imageUrl: '/images/sponsors/logo-unchained.png',
     twitterUrl: 'https://x.com/unchainedcom',
     websiteUrl: 'https://unchained.com/'
   },
   {
     name: 'The Beef Initiative',
-    imageUrl: '/images/logo-the_beef_initiative.png',
+    imageUrl: '/images/sponsors/logo-the_beef_initiative.png',
     twitterUrl: 'https://x.com/beefinitiative',
     websiteUrl: 'https://beefinitiative.com/'
   },
   {
     name: 'Satoshi%apos;s Journal',
-    imageUrl: '/images/logo-satoshis_journal.png',
+    imageUrl: '/images/sponsors/logo-satoshis_journal.png',
     twitterUrl: 'https://x.com/SatoshisJournal',
     websiteUrl: 'https://satoshisjournal.com/'
   },
   {
     name: 'Proof of Ink',
-    imageUrl: '/images/logo-proof_of_ink.png',
+    imageUrl: '/images/sponsors/logo-proof_of_ink.png',
     twitterUrl: 'https://x.com/ProofofInk',
     websiteUrl: 'https://proofofink.com/'
   },
   {
     name: 'Panties For Bitcoin',
-    imageUrl: '/images/logo-panties_for_bitcoin.png',
+    imageUrl: '/images/sponsors/logo-panties_for_bitcoin.png',
     twitterUrl: 'https://x.com/PantiesBitcoin',
     websiteUrl: 'https://www.pantiesforbitcoin.com/'
   },
   {
     name: 'Market Disruptors',
-    imageUrl: '/images/logo-market_disruptors.png',
+    imageUrl: '/images/sponsors/logo-market_disruptors.png',
     twitterUrl: 'https://x.com/MDisruptors',
     websiteUrl: 'https://www.1markmoss.com/optin-615411121709722339494'
   },
   {
     name: 'Bitcoin Well',
-    imageUrl: '/images/logo-bitcoin_well.png',
+    imageUrl: '/images/sponsors/logo-bitcoin_well.png',
     twitterUrl: 'https://x.com/TheBitcoinWell',
     websiteUrl: 'https://bitcoinwell.com/'
   },
   {
     name: 'Bitcoin Opportunity Fund',
-    imageUrl: '/images/logo-bitcoin_opportunity_fund.png',
+    imageUrl: '/images/sponsors/logo-bitcoin_opportunity_fund.png',
     twitterUrl: 'https://x.com/BTCOppFund',
     websiteUrl: 'https://www.bitcoinopportunity.fund/'
   },
   {
     name: 'Bitcoin News',
-    imageUrl: '/images/logo-bitcoin_news.png',
+    imageUrl: '/images/sponsors/logo-bitcoin_news.png',
     twitterUrl: 'https://x.com/BitcoinNewsCom',
     websiteUrl: 'https://bitcoinnews.com/'
   }
@@ -98,7 +98,7 @@ const Sponsor: FC<{sponsor:Sponsor}> = ({sponsor}) => {
   );
 }
 
-const SponsorsSection: React.FC = () => {
+const SponsorsSection: FC = () => {
   return (
       <SectionWrapper id="sponsors" title="Sponsors / Partners">
         <ul className="sponsors">

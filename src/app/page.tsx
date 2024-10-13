@@ -5,11 +5,11 @@ import ActivitySection from './components/ActivitySection';
 import LocationSection from './components/LocationSection';
 import DiningSection from './components/DiningSection';
 import HousingSection from './components/HousingSection';
-import SponsorsSection from "@/app/components/SponsorsSection";
+import SponsorsSection from './components/SponsorsSection';
 
 const Home: React.FC = () => {
   return (
-    <div>
+    <div className="camp-nakamoto-bg">
       <HeroSection />
       <LocationSection />
       <SpeakersSection />

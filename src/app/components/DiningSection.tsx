@@ -8,10 +8,10 @@ const DiningSection: React.FC = () => {
       <ul>
           <li><i>🍴</i><strong>Central Dining Hall</strong>: Gather at our central dining hall where the community comes together over meals, turning strangers into blockchain buddies.</li>
           <li><i>🍴</i><strong>All Meals Included</strong>: From sunrise to sunset, we&apos;ve got you covered with breakfast, lunch, and dinner. No need to mine for food here!</li>
-          <li><i>🍴</i><strong>Cattleman&apos;s Feast</strong>: An epic meal that&apos;s the talk of Twitter. Experience the Cattleman&apos;s Feast - where we celebrate our gains with gains on the grill! – brought to you by Texas Slim</li>
+          <li><i>🍴</i><strong>Cattleman&apos;s Feast</strong>: An epic meal that&apos;s the talk of Twitter. Experience the Cattleman&apos;s Feast - where we celebrate our gains with gains on the grill! – brought to you by Texas Slim &#x1F920;</li>
       </ul>
 
-      <h3>Weekly Menu Highlights</h3>
+      <h3>Weekend Menu Highlights</h3>
       <ul>
           <li className="meal"><strong>Thursday Dinner</strong> - Welcome BBQ: Kick off your camp journey with a BBQ that&apos;s as welcoming as a bull market.</li>
           <li className="meal"><strong>Friday Dinner</strong> - Cookout: Grill and chill under the stars, where the only thing getting roasted more than marshmallows is the concept of centralized banking.</li>

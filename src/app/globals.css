@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Fredoka', sans-serif;
   scroll-behavior: smooth;
   color: var(--coolest);
 }
@@ -30,10 +30,13 @@ nav button {
 
 section{
   max-width: 1200px;
-  margin: 64px auto;
-  padding: 0 16px;
-  font-family: "Fredoka", sans-serif;
+  margin: 0 auto;
+  padding: 24px 16px;
+  font-family: "Fredoka", cursive;
   font-size: 18px;
+  border-radius: 4px;
+  background-color: var(--neutral-light);
+  box-shadow: 5px 5px 25px -2px rgba(0, 0, 0, 0.5);
 }
 
 li {
@@ -77,6 +80,53 @@ p {
   margin-bottom: 12px;
 }
 
+footer {
+  text-align: center;
+  padding: 6px 0;
+  font-family: 'Fredoka', sans-serif;
+  color: var(--neutral-light);
+  background-color: var(--warmest);
+}
+footer a {
+  text-decoration: underline;
+}
+footer .footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 12px 28px;
+  width: 100%;
+  max-width: 1200px;
+}
+footer .footer-left, footer .footer-right {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+footer .footer-left {
+  margin-right: 16px;
+  justify-content: center;
+}
+footer .footer-left a {
+  margin-right: 8px;
+}
+footer .footer-right {
+  margin-left: 16px;
+}
+
+
+.camp-nakamoto-bg {
+  /*--s: 150px; !* control the size *!*/
+  /*padding: 48px;*/
+  /*background:*/
+  /*    linear-gradient(135deg,#0000 18.75%,var(--cool) 0 31.25%,#0000 0),*/
+  /*    repeating-linear-gradient(45deg,var(--cool) -6.25% 6.25%,var(--warmer) 0 18.75%);*/
+  /*background-size: var(--s) var(--s);*/
+  padding: 12px;
+  /*background-color: var(--neutral-dark);*/
+  background-color: var(--coolest);
+}
+
 
 .site-wrapper {
   background-color: var(--neutral-light);
@@ -118,7 +168,12 @@ div.accordion-item:last-child .accordion-title {
   padding: 10px;
   border-bottom: 1px solid var(--coolest);
  }
-
+.hero-container {
+  max-width: 1200px;
+  border-radius: 4px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 25px -2px rgba(0, 0, 0, 0.5);
+}
 .hero-copy {
   position: relative;
   z-index: 10;
@@ -126,24 +181,20 @@ div.accordion-item:last-child .accordion-title {
   padding: 0 1rem;
   max-width: 80rem;
   margin: 0 auto;
-  font-family: "Fredoka", sans-serif;
+  font-weight: 700;
   color: var(--warmer);
   text-shadow: 5px 5px 5px 5px black;
-}
-.hero-copy h1 {
-  font-family: "Luckiest Guy", cursive;
-  letter-spacing: 4px;
-  text-shadow: 2px 2px 2px var(--coolest);
 }
 .hero-copy h2, .hero-copy h3 {
   border: none;
   box-shadow: none;
+  font-family: "Vollkorn SC", serif;
   text-shadow: 2px 2px 2px var(--coolest);
-  font-family: "Fredoka", sans-serif;
   color: var(--warmer);
 }
 .hero-copy button {
   box-shadow: 2px 2px 2px var(--coolest);
+  font-family: "Fredoka", cursive;
 }
 
 
@@ -168,17 +219,19 @@ div.accordion-item:last-child .accordion-title {
 }
 .nav-wrapper .site-title {
   margin-top: 5px;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Vollkorn SC', serif;
   font-size: 24px;
+  font-weight: 900;
   letter-spacing: 2px;
   line-height: 20px;
+  text-transform: uppercase;
 }
 .nav-wrapper .nav-link {
   display: flex;
   align-items: center;
   margin-bottom: 2px;
   text-align: center;
-  font-family: 'Fredoka', sans-serif;
+  font-family: 'Fredoka', cursive;
   padding-left: 21px;
   font-size: 18px;
   line-height: 22px;
@@ -211,10 +264,11 @@ div.accordion-item:last-child .accordion-title {
   opacity: 0.75;
 }
 
-
-.speaker-card-container {
-  height: 128px;
-  max-height: 128px;
+.speaker-card-container h3 {
+  padding-left: 4px;
+  margin-bottom: 4px;
+  margin-top: 0;
+  line-height: 24px;
 }
 .speaker-card-body {
   position: relative;
@@ -253,6 +307,7 @@ div.accordion-item:last-child .accordion-title {
   border-top-left-radius: 12px;
   padding: 8px 12px;
   font-family: "Fredoka", sans-serif;
+  font-size: 16px;
   line-height: 22px;
   font-weight: bold;
   letter-spacing: 0.05em;
@@ -304,21 +359,29 @@ div.accordion-item:last-child .accordion-title {
   right: 4px;
 }
 
-
 @media (min-width: 480px) {
   .sponsors li {
     width: 48%;
   }
+  .camp-nakamoto-bg {
+    padding: 24px;
+  }
 }
 
 @media (min-width: 768px) {
+  footer .footer-wrapper {
+    padding: 12px 72px;
+  }
   nav button {
     display: none;
   }
   section{
-    padding: 0 48px;
+    padding: 48px;
   }
   .sponsors li {
     width: 32%;
+  }
+  .camp-nakamoto-bg {
+    padding: 48px;
   }
 }

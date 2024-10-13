@@ -116,7 +116,8 @@ const [selectedSpeaker, setSelectedSpeaker] = useState<Speaker | null>(null);
             key={speaker.name}
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: index * 0.1 }}>
+            transition={{ duration: 0.5, delay: index * 0.1 }}
+            className="self-end">
             <SpeakerCard
               name={speaker.name}
               title={speaker.title}

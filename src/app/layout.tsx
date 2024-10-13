@@ -10,13 +10,6 @@ export const metadata: Metadata = {
   description: 'A Bitcoin Weekend Getaway On New Hampshire\'s Largest Lake',
 };
 
-const cabin = 'family=Cabin:ital,wght@0,400..700;1,400..700';
-const fredoka = 'family=Fredoka:wght@300..700';
-const luckiestGuy = 'family=Luckiest+Guy';
-const vollkornSC = 'family=Vollkorn+SC:wght@400;600;700;900';
-
-
-
 export default function RootLayout({
   children,
 }: {
@@ -25,10 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en">
     <head>
-      {/* Favicon */}
-      <link rel="icon" href="/favicon.ico" sizes="any" />
-      {/* Optional: for older browsers */}
-      <link rel="shortcut icon" href="/favicon.ico" />
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+      <link rel="manifest" href="/site.webmanifest" />
       <link rel="preconnect" href="https://fonts.googleapis.com"/>
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous"/>
       <link

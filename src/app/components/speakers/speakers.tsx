@@ -131,9 +131,9 @@ const Speakers: React.FC = () => {
         <AnimatePresence>
           {selectedSpeaker && (
               <Modal isOpen={!!selectedSpeaker} onClose={() => setSelectedSpeaker(null)}>
-                <h2 className="text-3xl font-bold mb-4 text-bitcoin">{selectedSpeaker.name}</h2>
+                <h2 className="text-3xl font-bold mb-4 text-warmer">{selectedSpeaker.name}</h2>
                 <p className="text-2xl mb-4 text-gray-300">{selectedSpeaker.twitterHandle}</p>
-                <p className="text-gray-400 mb-4">{selectedSpeaker.description}</p>
+                <p className="text-neutrallight mb-4">{selectedSpeaker.description}</p>
               </Modal>
           )}
         </AnimatePresence>

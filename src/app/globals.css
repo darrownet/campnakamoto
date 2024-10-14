@@ -288,6 +288,7 @@ div.accordion-item:last-child .accordion-title {
   padding-left: 4px;
   margin-bottom: 4px;
   margin-top: 0;
+  font-size: 22px;
   line-height: 24px;
 }
 .speaker-card-body {
@@ -346,6 +347,7 @@ div.accordion-item:last-child .accordion-title {
 .sponsors li {
   padding: 0;
   width: 100%;
+  background-color: white;
 }
 .sponsor {
   position: relative;
@@ -366,17 +368,12 @@ div.accordion-item:last-child .accordion-title {
   right: 6px;
   width: 24px;
   height: 24px;
-  display: flex;
-  align-items: center;
-  border: 1px solid var(--coolest);
-  border-radius: 4px;
-  padding: 2px;
 }
 .sponsor a:hover {
-  width: 28px;
-  height: 28px;
   bottom: 4px;
   right: 4px;
+  width: 28px;
+  height: 28px;
 }
 
 @media (min-width: 480px) {
@@ -408,7 +405,7 @@ div.accordion-item:last-child .accordion-title {
     width: 40%;
   }
   .hero-copy {
-    top: -24px;
+    margin-top: 64px;
   }
   .sponsors li {
     width: 32%;

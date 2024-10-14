@@ -9,15 +9,15 @@ import SponsorsSection from './components/SponsorsSection';
 
 const Home: React.FC = () => {
   return (
-    <div className="camp-nakamoto-bg">
-      <HeroSection />
-      <LocationSection />
-      <SpeakersSection />
-      <ActivitySection />
-      <HousingSection />
-      <DiningSection />
-      <SponsorsSection />
-    </div>
+      <div className="camp-nakamoto">
+        <HeroSection/>
+        <LocationSection/>
+        <SpeakersSection/>
+        <ActivitySection/>
+        <HousingSection/>
+        <DiningSection/>
+        <SponsorsSection/>
+      </div>
   );
 }
 

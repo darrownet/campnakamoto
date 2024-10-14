@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import React from "react";
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -30,11 +31,16 @@ export default function RootLayout({
           rel="stylesheet"/>
     </head>
     <body className={`${inter.className} site-wrapper`}>
+    <div className="background-container">
+      <div className="stars"></div>
+      <div className="twinkling"></div>
+      <div className="clouds"></div>
+    </div>
     <Navbar/>
     <main className="pt-16">
       {children}
     </main>
-    <Footer />
+    <Footer/>
     </body>
     </html>
   );

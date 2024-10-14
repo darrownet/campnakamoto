@@ -31,6 +31,11 @@ nav button {
   display: block;
 }
 
+main {
+  position: relative;
+  background: transparent;
+}
+
 section{
   max-width: 1200px;
   margin: 0 auto;
@@ -84,6 +89,7 @@ p {
 }
 
 footer {
+  position: relative;
   text-align: center;
   padding: 6px 0;
   font-family: 'Fredoka', sans-serif;
@@ -118,9 +124,8 @@ footer .footer-right {
 }
 
 
-.camp-nakamoto-bg {
+.camp-nakamoto{
   padding: 0 12px 12px 12px;
-  background-color: var(--coolest);
 }
 
 .site-wrapper {
@@ -397,5 +402,96 @@ div.accordion-item:last-child .accordion-title {
   }
   .camp-nakamoto-bg {
     padding: 0 48px 48px 48px;
+  }
+}
+
+.background-container {
+  position: fixed;
+  top: 0;
+  left:0;
+  bottom: 0;
+  right: 0;
+}
+
+.background-container .stars {
+  background: black url(/images/stars.png) repeat;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  z-index: 0;
+}
+
+.background-container .twinkling{
+  width:10000px;
+  height: 100%;
+  background: transparent url("/images/twinkling.png") repeat;
+  background-size: 1000px 1000px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 2;
+
+  -moz-animation:move-background 70s linear infinite;
+  -ms-animation:move-background 70s linear infinite;
+  -o-animation:move-background 70s linear infinite;
+  -webkit-animation:move-background 70s linear infinite;
+  animation:move-background 70s linear infinite;
+
+}
+
+.background-container .clouds{
+  width:10000px;
+  height: 100%;
+  background: transparent url("/images/clouds_repeat.png") repeat;
+  background-size: 1000px 1000px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 3;
+
+  -moz-animation:move-background 150s linear infinite;
+  -ms-animation:move-background 150s linear infinite;
+  -o-animation:move-background 150s linear infinite;
+  -webkit-animation:move-background 150s linear infinite;
+  animation:move-background 150s linear infinite;
+}
+
+keyframes move-background {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+@-webkit-keyframes move-background {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+
+@-moz-keyframes move-background {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(1000px, 0px, 0px);
+  }
+}
+
+@-webkit-keyframes move-background {
+  from {
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  to {
+    -webkit-transform: translate3d(1000px, 0px, 0px);
   }
 }

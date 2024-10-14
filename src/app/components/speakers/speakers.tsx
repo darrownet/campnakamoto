@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import SpeakerCard from "./SpeakerCard";
-import Modal from "./Modal";
-import SectionWrapper from './SectionWrapper';
+import SpeakerCard from "./speaker-card";
+import Modal from "./modal";
+import SectionWrapper from '../section-wrapper';
 
 interface Speaker {
   name: string;
@@ -105,40 +105,40 @@ const speakers: Speaker[] = [
   }
 ];
 
-const SpeakersSection: React.FC = () => {
-const [selectedSpeaker, setSelectedSpeaker] = useState<Speaker | null>(null);
+const Speakers: React.FC = () => {
+  const [selectedSpeaker, setSelectedSpeaker] = useState<Speaker | null>(null);
 
   return (
-    <SectionWrapper id="speakers" title="Participants & Panelists">
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-8">
-        {speakers.map((speaker, index) => (
-          <motion.div
-            key={speaker.name}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: index * 0.1 }}
-            className="self-end">
-            <SpeakerCard
-              name={speaker.name}
-              title={speaker.title}
-              imageUrl={speaker.imageUrl}
-              description={speaker.description}
-              onLearnMore={() => setSelectedSpeaker(speaker)}/>
-          </motion.div>
-        ))}
-      </div>
-      <h4>...stay tuned for the reveal of more names that will sweeten your journey down the rabbit hole!</h4>
-      <AnimatePresence>
-        {selectedSpeaker && (
-          <Modal isOpen={!!selectedSpeaker} onClose={() => setSelectedSpeaker(null)}>
-            <h2 className="text-3xl font-bold mb-4 text-bitcoin">{selectedSpeaker.name}</h2>
-            <p className="text-2xl mb-4 text-gray-300">{selectedSpeaker.twitterHandle}</p>
-            <p className="text-gray-400 mb-4">{selectedSpeaker.description}</p>
-          </Modal>
-        )}
-      </AnimatePresence>
-    </SectionWrapper>
+      <SectionWrapper id="speakers" title="Participants & Panelists">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-8">
+          {speakers.map((speaker, index) => (
+              <motion.div
+                  key={speaker.name}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                  className="self-end">
+                <SpeakerCard
+                    name={speaker.name}
+                    title={speaker.title}
+                    imageUrl={speaker.imageUrl}
+                    description={speaker.description}
+                    onLearnMore={() => setSelectedSpeaker(speaker)}/>
+              </motion.div>
+          ))}
+        </div>
+        <h4>...stay tuned for the reveal of more names that will sweeten your journey down the rabbit hole!</h4>
+        <AnimatePresence>
+          {selectedSpeaker && (
+              <Modal isOpen={!!selectedSpeaker} onClose={() => setSelectedSpeaker(null)}>
+                <h2 className="text-3xl font-bold mb-4 text-bitcoin">{selectedSpeaker.name}</h2>
+                <p className="text-2xl mb-4 text-gray-300">{selectedSpeaker.twitterHandle}</p>
+                <p className="text-gray-400 mb-4">{selectedSpeaker.description}</p>
+              </Modal>
+          )}
+        </AnimatePresence>
+      </SectionWrapper>
   );
 };
 
-export default SpeakersSection;
+export default Speakers;

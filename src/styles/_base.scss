@@ -1,0 +1,76 @@
+html, main {
+  background-color: var(--coolest);
+}
+body {
+  font-family: 'Fredoka', sans-serif;
+  scroll-behavior: smooth;
+  color: var(--coolest);
+}
+nav {
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+nav ul {
+  display: block;
+}
+
+nav button {
+  display: block;
+}
+
+main {
+  position: relative;
+  background: transparent;
+}
+
+section{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 16px;
+  font-family: "Fredoka", cursive;
+  font-size: 18px;
+  border-radius: 16px;
+  background-color: var(--neutral-light);
+  box-shadow: 5px 5px 25px -2px rgba(0, 0, 0, 0.5);
+}
+
+li {
+  margin-bottom: 16px;
+  padding-left: 20px;
+}
+
+h2 {
+  width: fit-content;
+  padding: 8px 16px 0 16px;
+  margin-bottom: 26px;
+  color: var(--warmest);
+  border: 2px solid var(--warmest);
+  border-radius: 50px;
+  box-shadow:
+      0 0 0 3px var(--neutral-light),
+      0 0 0 5px var(--warmest);
+  background-color: var(var(--neutral-light));
+  font-family: "Luckiest Guy", cursive;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+h3 {
+  font-family: "Fredoka", cursive;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 24px;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+h4 {
+  font-weight: bold;
+  font-style: italic;
+}
+
+p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}

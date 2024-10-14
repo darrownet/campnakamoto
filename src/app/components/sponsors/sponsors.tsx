@@ -1,7 +1,7 @@
 "use client";
 import React, {FC} from 'react';
 import Image from 'next/image'
-import SectionWrapper from './SectionWrapper';
+import SectionWrapper from '../section-wrapper';
 //
 interface Sponsor {
   name: string;
@@ -81,7 +81,7 @@ const Sponsor: FC<{sponsor:Sponsor}> = ({sponsor}) => {
   );
 }
 
-const SponsorsSection: FC = () => {
+const Sponsors: FC = () => {
   return (
       <SectionWrapper id="sponsors" title="Sponsors / Partners">
         <ul className="sponsors">
@@ -93,4 +93,4 @@ const SponsorsSection: FC = () => {
   );
 };
 
-export default SponsorsSection;
+export default Sponsors;

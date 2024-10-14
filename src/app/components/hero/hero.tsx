@@ -4,7 +4,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import * as THREE from 'three';
 
-const HeroSection: React.FC = () => {
+const Hero: React.FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
   const [videoReady, setVideoReady] = useState(false);
@@ -58,53 +58,53 @@ const HeroSection: React.FC = () => {
   }, []);
 
   return (
-    <div
-        className="relative w-full h-screen flex items-center justify-center overflow-hidden hero-container">
-      <video
-        ref={videoRef}
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute inset-0 w-full h-full object-cover"
-      >
-        <source src="https://v.nostr.build/PjTl8NCpnQec2iJl.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
-      <div className="hero-copy">
-        <motion.h2
-            className="sm:text-4xl md:text-5xl lg:text-6xl mx-auto"
-            initial={{opacity: 0, y: -50}}
-            animate={{opacity: 1, y: 0}}
-            transition={{duration: 0.8}}
+      <div
+          className="relative w-full h-screen flex items-center justify-center overflow-hidden hero-container">
+        <video
+            ref={videoRef}
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover"
         >
-          An Island Bitcoin Retreat
-        </motion.h2>
+          <source src="https://v.nostr.build/PjTl8NCpnQec2iJl.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div className="hero-copy">
+          <motion.h2
+              className="sm:text-4xl md:text-5xl lg:text-6xl mx-auto"
+              initial={{opacity: 0, y: -50}}
+              animate={{opacity: 1, y: 0}}
+              transition={{duration: 0.8}}
+          >
+            An Island Bitcoin Retreat
+          </motion.h2>
           <div className="hero-logo">
             <img src="/images/camp-nakamoto-badge.png"/>
           </div>
-        <motion.h3
-            className="text-xl sm:text-2xl md:text-3xl mb-8"
-            initial={{opacity: 0, y: 50}}
-            animate={{opacity: 1, y: 0}}
-            transition={{duration: 0.8, delay: 0.2}}
-        >
-          Thursday, October 9th – Sunday, October 12 2025
-        </motion.h3>
-        <motion.button
-            className="px-8 py-4 bg-orange-500 text-white font-semibold rounded-lg shadow-lg hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-green-300 focus:ring-opacity-50 transform transition-all duration-300 ease-in-out"
-            whileHover={{scale: 1.05, boxShadow: "0 0 8px rgb(34 197 94 / 60%)"}}
-            whileTap={{scale: 0.95}}
-            initial={{opacity: 0, scale: 0.8}}
-            animate={{opacity: 1, scale: 1}}
-        >
-          <a target="_blank" href="https://www.ticketspice.com" rel="noopener noreferrer">
-            Buy Tickets
-          </a>
-        </motion.button>
+          <motion.h3
+              className="text-xl sm:text-2xl md:text-3xl mb-8"
+              initial={{opacity: 0, y: 50}}
+              animate={{opacity: 1, y: 0}}
+              transition={{duration: 0.8, delay: 0.2}}
+          >
+            Thursday, October 9th – Sunday, October 12 2025
+          </motion.h3>
+          <motion.button
+              className="px-8 py-4 bg-orange-500 text-white font-semibold rounded-lg shadow-lg hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-green-300 focus:ring-opacity-50 transform transition-all duration-300 ease-in-out"
+              whileHover={{scale: 1.05, boxShadow: "0 0 8px rgb(34 197 94 / 60%)"}}
+              whileTap={{scale: 0.95}}
+              initial={{opacity: 0, scale: 0.8}}
+              animate={{opacity: 1, scale: 1}}
+          >
+            <a target="_blank" href="https://www.ticketspice.com" rel="noopener noreferrer">
+              Buy Tickets
+            </a>
+          </motion.button>
+        </div>
       </div>
-    </div>
   );
 };
 
-export default HeroSection;
+export default Hero;

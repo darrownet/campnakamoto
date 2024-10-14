@@ -59,8 +59,7 @@ const HeroSection: React.FC = () => {
 
   return (
     <div
-        className="relative w-full h-screen flex items-center justify-center overflow-hidden hero-container"
-        style={{maxWidth: '1200px', borderRadius: '4px', margin: '0 auto'}}>
+        className="relative w-full h-screen flex items-center justify-center overflow-hidden hero-container">
       <video
         ref={videoRef}
         autoPlay

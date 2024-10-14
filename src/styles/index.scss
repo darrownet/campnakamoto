@@ -3,7 +3,7 @@
 @import "./base";
 
 .camp-nakamoto{
-  padding: 0 12px 12px 12px;
+  padding: 12px 12px 18px 12px;
 }
 
 .site-wrapper {
@@ -12,6 +12,10 @@
 .site-wrapper i {
   display: inline-block;
   margin-right: 12px;
+}
+
+.section-divider {
+  height: 48px;
 }
 
 @import "../app/components/ui/accordion-menu/accordion-menu";

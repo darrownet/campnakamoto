@@ -89,7 +89,7 @@ const Hero: React.FC = () => {
               animate={{opacity: 1, y: 0}}
               transition={{duration: 0.8, delay: 0.2}}
           >
-            Thursday, October 9th – Sunday, October 12 2025
+            Thursday, October 9<sup>th</sup> – Sunday, October 12<sup>th</sup> 2025
           </motion.h3>
           <motion.button
               className="px-8 py-4 bg-orange-500 text-white font-semibold rounded-lg shadow-lg hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-green-300 focus:ring-opacity-50 transform transition-all duration-300 ease-in-out"

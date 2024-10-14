@@ -64,6 +64,12 @@ const sponsors: Sponsor[] = [
     imageUrl: '/images/sponsors/logo-bitcoin_news.png',
     twitterUrl: 'https://x.com/BitcoinNewsCom',
     websiteUrl: 'https://bitcoinnews.com/'
+  },
+  {
+    name: 'Events By Anders',
+    imageUrl: '/images/sponsors/logo-events_by_anders.png',
+    twitterUrl: 'https://x.com/Anders_',
+    websiteUrl: 'https://eventsbyanders.com/'
   }
 ];
 

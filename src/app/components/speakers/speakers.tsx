@@ -32,6 +32,14 @@ const speakers: Speaker[] = [
     stats: ""
   },
   {
+    name: "Mark Moss",
+    title: "",
+    twitterHandle: "@1MarkMoss",
+    imageUrl: "/images/speakers/mark_moss.jpg",
+    description: "Mark Moss is your go-to guide in the wild world of finance, with a special twist of Bitcoin advocacy. From his home base in San Clemente, California, Mark has navigated the dot-com bubble, real estate, and now rides the Bitcoin wave, sharing his journey through \"The Mark Moss Show\" and Market Disruptors on YouTube. He's not just about understanding the crypto-verse; he's about changing how you think about money.",
+    stats: ""
+  },
+  {
     name: "Luke Broyles",
     title: "",
     twitterHandle: "@luke_broyles",
@@ -85,14 +93,6 @@ const speakers: Speaker[] = [
     twitterHandle: "@Anders_",
     imageUrl: "/images/speakers/anders_jensen.jpg",
     description: "Anders Jensen has made a name for himself through successfully organizing and hosting Bitcoin events. His events are not just gatherings but platforms for education, networking, and advocacy within the Bitcoin community. His ability to bring together diverse groups of Bitcoin enthusiasts and professionals has made him a pivotal figure in expanding Bitcoin's reach and understanding.",
-    stats: ""
-  },
-  {
-    name: "Mark Moss",
-    title: "",
-    twitterHandle: "@1MarkMoss",
-    imageUrl: "/images/speakers/mark_moss.jpg",
-    description: "Mark Moss is your go-to guide in the wild world of finance, with a special twist of Bitcoin advocacy. From his home base in San Clemente, California, Mark has navigated the dot-com bubble, real estate, and now rides the Bitcoin wave, sharing his journey through \"The Mark Moss Show\" and Market Disruptors on YouTube. He's not just about understanding the crypto-verse; he's about changing how you think about money.",
     stats: ""
   },
   {

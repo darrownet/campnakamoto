@@ -1,22 +1,23 @@
 import React from 'react';
-import HeroSection from './components/HeroSection';
-import SpeakersSection from './components/SpeakersSection';
-import ActivitySection from './components/ActivitySection';
-import LocationSection from './components/LocationSection';
-import DiningSection from './components/DiningSection';
-import HousingSection from './components/HousingSection';
-import SponsorsSection from './components/SponsorsSection';
+import Activities from "@/app/components/activities/activities";
+import Dining from "@/app/components/dining/dining";
+import Housing from "@/app/components/housing/housing";
+import Location from "@/app/components/location/location";
+import Speakers from "@/app/components/speakers/speakers";
+import Sponsors from "@/app/components/sponsors/sponsors";
+
+import Hero from "@/app/components/hero/hero";
 
 const Home: React.FC = () => {
   return (
     <div className="camp-nakamoto">
-      <HeroSection/>
-      <LocationSection/>
-      <SpeakersSection/>
-      <ActivitySection/>
-      <HousingSection/>
-      <DiningSection/>
-      <SponsorsSection/>
+      <Hero/>
+      <Location/>
+      <Speakers/>
+      <Activities/>
+      <Housing/>
+      <Dining/>
+      <Sponsors/>
     </div>
   );
 }

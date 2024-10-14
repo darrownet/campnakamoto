@@ -1,0 +1,26 @@
+@import "./tailwind";
+@import "./variables";
+@import "./base";
+
+.camp-nakamoto{
+  padding: 0 12px 12px 12px;
+}
+
+.site-wrapper {
+  background-color: var(--neutral-light);
+}
+.site-wrapper i {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+@import "../app/components/ui/accordion-menu/accordion-menu";
+
+@import "../app/components/navbar/navbar";
+@import "../app/components/hero/hero";
+@import "../app/components/speakers/speakers";
+@import "../app/components/sponsors/sponsors";
+@import "../app/components/footer/footer";
+
+@import "./media-queries";
+@import "./stars-background";

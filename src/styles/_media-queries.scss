@@ -1,0 +1,41 @@
+@media (min-width: 480px) {
+  .hero-logo {
+    width: 50%;
+  }
+  .hero-copy {
+    top: -32px;
+    /*margin-bottom: 128px;*/
+  }
+  .sponsors li {
+    width: 48%;
+  }
+  .camp-nakamoto-bg {
+    padding: 0 24px 24px 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  nav button {
+    display: none;
+  }
+  section{
+    padding: 48px;
+  }
+  .hero-logo {
+    width: 40%;
+  }
+  .sponsors li {
+    width: 32%;
+  }
+  .camp-nakamoto-bg {
+    padding: 0 48px 48px 48px;
+  }
+}
+
+.background-container {
+  position: fixed;
+  top: 0;
+  left:0;
+  bottom: 0;
+  right: 0;
+}

@@ -1,11 +1,8 @@
 import React from "react";
-import './globals.css';
+import '../styles/index.scss'
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-
-const inter = Inter({ subsets: ['latin'] });
+import Navbar from './components/navbar/navbar';
+import Footer from './components/footer/footer';
 
 export const metadata: Metadata = {
   title: 'Camp Nakamoto',
@@ -30,7 +27,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Fredoka:wght@300..700&family=Luckiest+Guy&family=Vollkorn+SC:wght@400;600;700;900&display=swap"
           rel="stylesheet"/>
     </head>
-    <body className={`${inter.className} site-wrapper`}>
+    <body className="site-wrapper">
     <div className="background-container">
       <div className="stars"></div>
       <div className="twinkling"></div>

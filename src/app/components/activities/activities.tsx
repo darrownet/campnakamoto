@@ -1,6 +1,6 @@
 import React from 'react';
-import Accordion from "@/app/components/ui/accordion-menu";
-import SectionWrapper from './SectionWrapper';
+import Accordion from "@/app/components/ui/accordion-menu/accordion-menu";
+import SectionWrapper from '../section-wrapper';
 
 const sportsAndRec = [
   {
@@ -53,7 +53,7 @@ const sportsAndRec = [
   }
 ];
 
-const ActivitySection: React.FC = () => {
+const Activities: React.FC = () => {
   return (
       <SectionWrapper id="activities" title="Activities">
         <h3>Forge Your Path at Camp Nakamoto</h3>
@@ -99,4 +99,4 @@ const ActivitySection: React.FC = () => {
   );
 };
 
-export default ActivitySection;
+export default Activities;

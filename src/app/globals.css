@@ -259,7 +259,7 @@ div.accordion-item:last-child .accordion-title {
   padding-top: 20px;
   font-family: "Fredoka", cursive;
   font-size: 18px;
-  border-bottom-left-radius: 12px;
+  border-bottom-left-radius: 16px;
   background-color: var(--coolest);
 }
 .nav-mobile::before {

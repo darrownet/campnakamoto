@@ -73,7 +73,7 @@ const HeroSection: React.FC = () => {
       </video>
       <div className="hero-copy">
         <motion.h2
-            className="text-5xl sm:text-6xl md:text-6xl mx-auto"
+            className="sm:text-4xl md:text-5xl lg:text-6xl mx-auto"
             initial={{opacity: 0, y: -50}}
             animate={{opacity: 1, y: 0}}
             transition={{duration: 0.8}}

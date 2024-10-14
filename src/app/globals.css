@@ -94,7 +94,7 @@ p {
 footer {
   position: relative;
   text-align: center;
-  padding: 6px 0;
+  padding: 6px 32px;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
   font-family: 'Fredoka', sans-serif;
@@ -108,9 +108,8 @@ footer .footer-wrapper {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 12px 28px;
+  padding: 12px 0;
   width: 100%;
-  max-width: 1200px;
 }
 footer .footer-left, footer .footer-right {
   display: flex;
@@ -176,6 +175,9 @@ div.accordion-item:last-child .accordion-title {
 
 
 .hero-container {
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*justify-content: flex-end;*/
   max-width: 1200px;
   border-radius: 16px;
   margin: 0 auto;
@@ -193,9 +195,11 @@ div.accordion-item:last-child .accordion-title {
   padding: 0 1rem;
   max-width: 80rem;
   margin: 0 auto;
+  margin-top: 48px;
+  /*margin-bottom: 24px;*/
   font-weight: 700;
   color: var(--warmer);
-  text-shadow: 5px 5px 5px 5px black;
+  text-shadow: 5px 5px 5px black;
 }
 .hero-copy h2, .hero-copy h3 {
   border: none;
@@ -382,6 +386,7 @@ div.accordion-item:last-child .accordion-title {
   }
   .hero-copy {
     top: -32px;
+    /*margin-bottom: 128px;*/
   }
   .sponsors li {
     width: 48%;
@@ -392,9 +397,6 @@ div.accordion-item:last-child .accordion-title {
 }
 
 @media (min-width: 768px) {
-  footer .footer-wrapper {
-    padding: 12px 72px;
-  }
   nav button {
     display: none;
   }
@@ -403,9 +405,6 @@ div.accordion-item:last-child .accordion-title {
   }
   .hero-logo {
     width: 40%;
-  }
-  .hero-copy {
-    margin-top: 64px;
   }
   .sponsors li {
     width: 32%;

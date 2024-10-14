@@ -368,17 +368,12 @@ div.accordion-item:last-child .accordion-title {
   right: 6px;
   width: 24px;
   height: 24px;
-  display: flex;
-  align-items: center;
-  border: 1px solid var(--coolest);
-  border-radius: 4px;
-  padding: 2px;
 }
 .sponsor a:hover {
-  width: 28px;
-  height: 28px;
   bottom: 4px;
   right: 4px;
+  width: 28px;
+  height: 28px;
 }
 
 @media (min-width: 480px) {

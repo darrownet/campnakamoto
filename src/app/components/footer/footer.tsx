@@ -8,7 +8,6 @@ const Footer = () => {
       <footer>
         <div className="footer-wrapper">
           <div className="footer-left">
-            {/*<span>Contact&nbsp;&nbsp;&nbsp;</span>*/}
             <a href="https://www.massadoption.net/contact" target="_blank"><IconEmail/></a>
             <a href="https://www.youtube.com/@massadoptionbtc" target="_blank"><IconYoutube/></a>
             <a href="https://x.com/BTC_Mass" target="_blank"><IconX/></a>

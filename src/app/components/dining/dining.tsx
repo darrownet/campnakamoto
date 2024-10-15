@@ -17,7 +17,7 @@ const Dining: React.FC = () => {
           <li className="meal"><strong>Saturday Dinner</strong> - Cookout: Grill and chill under the stars, where the only thing getting roasted more than marshmallows is the concept of centralized banking.</li>
           <li className="meal"><strong>Sunday Dinner</strong> - <strong>Cattleman&apos;s Feast</strong>: A feast fit for bitcoin royalty. Beef up your evening with this legendary spread.</li>
           <li className="meal"><strong>Saturday Lunch</strong> - Taco Bar: Build your own tacos, because here, you control the toppings like you control your bitcoin portfolio.</li>
-          <li className="meal"><strong>Sunday Lunch</strong> - Build Your Own Sandwiches: Craft your masterpiece. Your sandwich, your rules, much like your stacking strategy.</li>
+          <li className="meal"><strong>Sundayw Lunch</strong> - Build Your Own Sandwiches: Craft your masterpiece. Your sandwich, your rules, much like your stacking strategy.</li>
           <li className="meal"><strong>Breakfast</strong>: Standard summer camp style breakfast every morning. Because some things, like the need for bacon and eggs, never change in the world of ever-evolving digital currencies.</li>
         </ul>
 

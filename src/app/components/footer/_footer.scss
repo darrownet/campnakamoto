@@ -13,6 +13,9 @@ footer {
       fill: white;
     }
   }
+  a:hover {
+    color: var(--warm);
+  }
   .footer-wrapper {
     display: flex;
     justify-content: space-between;
@@ -33,6 +36,11 @@ footer {
       display: flex;
       justify-content: center;
       width: 36px;
+    }
+    a:hover {
+      svg {
+        fill: var(--warm);
+      }
     }
   }
   .footer-right {

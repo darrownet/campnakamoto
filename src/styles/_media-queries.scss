@@ -21,6 +21,12 @@
   section{
     padding: 48px;
   }
+  footer .footer-left {
+    justify-content: flex-start;
+    a {
+      width: 48px;
+    }
+  }
   .hero-logo {
     width: 40%;
   }

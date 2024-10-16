@@ -18,6 +18,24 @@ const sponsors: Sponsor[] = [
     websiteUrl: 'https://unchained.com/'
   },
   {
+    name: 'Bitcoin Opportunity Fund',
+    imageUrl: '/images/sponsors/logo-bitcoin_opportunity_fund.png',
+    twitterUrl: 'https://x.com/BTCOppFund',
+    websiteUrl: 'https://www.bitcoinopportunity.fund/'
+  },
+  {
+    name: 'Bitcoin Well',
+    imageUrl: '/images/sponsors/logo-bitcoin_well.png',
+    twitterUrl: 'https://x.com/TheBitcoinWell',
+    websiteUrl: 'https://bitcoinwell.com/'
+  },
+  {
+    name: 'Bitcoin News',
+    imageUrl: '/images/sponsors/logo-bitcoin_news.png',
+    twitterUrl: 'https://x.com/BitcoinNewsCom',
+    websiteUrl: 'https://bitcoinnews.com/'
+  },
+  {
     name: 'The Beef Initiative',
     imageUrl: '/images/sponsors/logo-the_beef_initiative.png',
     twitterUrl: 'https://x.com/beefinitiative',
@@ -46,24 +64,6 @@ const sponsors: Sponsor[] = [
     imageUrl: '/images/sponsors/logo-market_disruptors.png',
     twitterUrl: 'https://x.com/MDisruptors',
     websiteUrl: 'https://www.1markmoss.com/optin-615411121709722339494'
-  },
-  {
-    name: 'Bitcoin Well',
-    imageUrl: '/images/sponsors/logo-bitcoin_well.png',
-    twitterUrl: 'https://x.com/TheBitcoinWell',
-    websiteUrl: 'https://bitcoinwell.com/'
-  },
-  {
-    name: 'Bitcoin Opportunity Fund',
-    imageUrl: '/images/sponsors/logo-bitcoin_opportunity_fund.png',
-    twitterUrl: 'https://x.com/BTCOppFund',
-    websiteUrl: 'https://www.bitcoinopportunity.fund/'
-  },
-  {
-    name: 'Bitcoin News',
-    imageUrl: '/images/sponsors/logo-bitcoin_news.png',
-    twitterUrl: 'https://x.com/BitcoinNewsCom',
-    websiteUrl: 'https://bitcoinnews.com/'
   },
   {
     name: 'Events By Anders',

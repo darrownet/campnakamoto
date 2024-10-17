@@ -66,6 +66,11 @@ const Activities: React.FC = () => {
         </ul>
         <h3>Informal Activities</h3>
         <ul>
+          <li>
+            <i>🛥️</i><strong>Twilight Foliage Cocktail Hour Cruise</strong>: This isn&apos;t just a cruise; it&apos;s a
+            voyage into the essence of fall and the future of finance, a toast to the artistry of nature and the
+            ingenuity of Satoshi.
+          </li>
           <li><i>🛣</i><strong>Bitcoin Road</strong>: Walk through &apos;Living CandyLand&apos;, but with a twist -
             it&apos;s all about Bitcoins! Get to hyperbitcoinization first!, win treats, and maybe even some sats!
           </li>

@@ -5,7 +5,7 @@ const Location: React.FC = () => {
   return (
       <SectionWrapper id="location" title="Location">
         <h3>Your Bitcoin Oasis Awaits at Sandy Island</h3>
-        <p className="text-lg">Experience the beauty of New Hampshire&apos;s largest lake. Our retreat is located in a serene environment perfect for relaxation and networking.</p>
+        <p className="text-lg">Experience the beauty of New Hampshire&apos;s largest lake - where the tranquil charm of Lake Winnipesaukee at sunset mirrors the golden hues of Bitcoin&apos;s promise and every moment is infused with the beauty of fall foliage. Our retreat is located in a serene environment perfect for relaxation and networking.</p>
         <p>Since 1899, Sandy Island has been the backdrop for extraordinary experiences, spread across 66 wooded acres in the heart of Lake Winnipesaukee, New Hampshire. Whether your family is by blood or by bitcoin&apos;s blockchain, Sandy Island is the perfect place for you and yours to grow in spirit, body, and mind amidst nature&apos;s splendor.</p>
         <h3>Your Journey to Camp Nakamoto</h3>
         <p className="journey">To reach this secluded haven, <strong>drive to Harilla Landing in Moultonborough, NH</strong>, where the road ends and your adventure begins. From there, hop aboard a ferry for a scenic ride to Sandy Island – your gateway to a world where the digital meets the serene waters of Lake Winnipesaukee.</p>

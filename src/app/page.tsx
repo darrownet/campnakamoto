@@ -4,6 +4,7 @@ import Dining from "@/app/components/dining/dining";
 import Housing from "@/app/components/housing/housing";
 import Location from "@/app/components/location/location";
 import Speakers from "@/app/components/speakers/speakers";
+import Faqs from "@/app/components/faqs/faqs";
 import Sponsors from "@/app/components/sponsors/sponsors";
 
 import Hero from "@/app/components/hero/hero";
@@ -17,6 +18,7 @@ const Home: React.FC = () => {
       <Activities/>
       <Housing/>
       <Dining/>
+      <Faqs/>
       <Sponsors/>
     </div>
   );

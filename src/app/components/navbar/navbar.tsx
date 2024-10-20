@@ -3,6 +3,8 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 
+// const NavLink = (label: string) => <span>{label}</span>;
+
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -14,22 +16,20 @@ const Navbar: React.FC = () => {
     { href: "#activities", label: "Activities" },
     { href: "#housing", label: "Housing" },
     { href: "#dining", label: "Dining" },
+    { href: "#faqs", label: "FAQs" },
     { href: "#sponsors", label: "Sponsors / Partners" }
   ];
 
   return (
       <nav className="nav-wrapper">
         <div className="nav-container">
-          <Link href="/" className="site-title">
-            Camp Nakamoto
-            {/*<div>*/}
-            {/*  <img src="/images/camp-nakamoto-badge.png"/>*/}
-            {/*</div>*/}
-          </Link>
+          <Link href="/" className="site-title">Camp Nakamoto</Link>
           <ul className="hidden md:flex nav-links">
             {navItems.map((item) => (
                 <li className="nav-link" key={item.href}>
-                  <Link href={item.href}>{item.label}</Link>
+                  <Link href={item.href}>
+                    {item.label}
+                  </Link>
                 </li>
             ))}
           </ul>

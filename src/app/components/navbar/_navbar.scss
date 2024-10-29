@@ -11,6 +11,53 @@
   background-color: var(--warmest);
   box-shadow: 0 -15px 35px 25px rgba(0, 0, 0, 0.2);
 
+  .mass-adoption-badge {
+    color: var(--warmer);
+    border-color: var(--warmer);
+  }
+
+  .mass-adoption-badge:hover {
+    color: var(--warm);
+    border-color: var(--warm);
+  }
+
+  .mass-adoption {
+    position: absolute;
+    right: 0;
+    bottom: -28px;
+    width: 259px;
+    height: 42px;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom-left-radius: 16px;
+    padding: 10px 2px 0 0;
+    background-color: var(--warmest);
+
+  > span {
+    height: 28px;
+  }
+
+    > span:first-child {
+      border-radius: 16px 0 0 16px;
+      border: 1px solid;
+      border-right: none;
+      padding: 1px 6px 0 12px;
+      font-size: 14px;
+      font-style: italic;
+    }
+
+    > span:last-child {
+      border-radius: 0 16px 16px 0;
+      border: 1px solid;
+      border-left: none;
+    }
+
+    > span > img {
+      width: 26px;
+      height: 26px;
+    }
+  }
+
   .nav-container {
     display: flex;
     justify-content: space-between;
@@ -38,9 +85,11 @@
     font-size: 15px;
     line-height: 20px;
   }
+
   .nav-link a:hover {
     color: var(--warm);
   }
+
   li.nav-link:last-child {
     a {
       min-width: 78px;
@@ -58,6 +107,7 @@
     border-bottom-left-radius: 16px;
     background-color: var(--coolest);
   }
+
   .nav-mobile::before {
     content: '';
     width: 100%;
@@ -66,16 +116,19 @@
     position: absolute;
     top: -12px;
   }
+
   .nav-mobile li {
     display: flex;
     height: auto;
     min-height: 42px;
   }
+
   .nav-mobile li a {
     display: block;
     width: 100%;
     height: 100%;
   }
+
   .nav-mobile li a:hover {
     opacity: 0.75;
   }

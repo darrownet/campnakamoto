@@ -42,6 +42,7 @@ li {
 h2 {
   width: fit-content;
   padding: 8px 16px 0 16px;
+  margin-top: 8px;
   margin-bottom: 26px;
   color: var(--warmest);
   border: 2px solid var(--warmest);
@@ -49,7 +50,7 @@ h2 {
   box-shadow:
       0 0 0 3px var(--neutral-light),
       0 0 0 5px var(--warmest);
-  background-color: var(var(--neutral-light));
+  background-color: var(--neutral-light);
   font-family: "Luckiest Guy", cursive;
   font-size: 28px;
   font-weight: bold;

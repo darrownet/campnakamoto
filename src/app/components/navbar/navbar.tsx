@@ -1,7 +1,10 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, {useState} from 'react';
+import Image from 'next/image'
 import Link from 'next/link';
+
+// const NavLink = (label: string) => <span>{label}</span>;
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,32 +12,39 @@ const Navbar: React.FC = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   const navItems = [
-    { href: "#location", label: "Location" },
-    { href: "#speakers", label: "Participants & Panelists" },
-    { href: "#activities", label: "Activities" },
-    { href: "#housing", label: "Housing" },
-    { href: "#dining", label: "Dining" },
-    { href: "#sponsors", label: "Sponsors / Partners" }
+    {href: "#location", label: "Location"},
+    {href: "#speakers", label: "Participants & Panelists"},
+    {href: "#activities", label: "Activities"},
+    {href: "#housing", label: "Housing"},
+    {href: "#dining", label: "Dining"},
+    {href: "#faqs", label: "FAQs"},
+    {href: "#sponsors", label: "Sponsors / Partners"}
   ];
 
   return (
       <nav className="nav-wrapper">
         <div className="nav-container">
-          <Link href="/" className="site-title">
-            Camp Nakamoto
-            {/*<div>*/}
-            {/*  <img src="/images/camp-nakamoto-badge.png"/>*/}
-            {/*</div>*/}
-          </Link>
+          <Link href="/" className="site-title">Camp Nakamoto</Link>
           <ul className="hidden md:flex nav-links">
             {navItems.map((item) => (
                 <li className="nav-link" key={item.href}>
-                  <Link href={item.href}>{item.label}</Link>
+                  <Link href={item.href}>
+                    {item.label}
+                  </Link>
                 </li>
             ))}
           </ul>
+          <a className="mass-adoption-badge" href="https://www.massadoption.net/" target="_blank">
+            <div className="mass-adoption">
+              <span>Brought to you by Mass Adoption</span>
+              <span>
+                <Image src="/images/mass_adoption_logo.png" height={1000} width={1000} alt="Mass Adoption Logo"/>
+              </span>
+            </div>
+          </a>
           <button className="md:hidden focus:outline-none" onClick={toggleMenu} aria-label="Toggle menu">
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                 xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
           </button>

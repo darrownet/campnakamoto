@@ -23,7 +23,7 @@ const Housing: React.FC = () => {
           <li><i>🔐</i><strong>Private Keys Tier</strong>:
             <ul>
               <li>Fancy a bit more privacy or bringing a group? Our housing desk will tailor your stay.<br/>
-                Expect a contact from us for an upgrade option.<br/>
+                Expect to be contacted to discuss the option of purchasing one of our accommodation upgrades.<br/>
                 ...Because sometimes, you need your private space to ponder your private key security protocol.</li>
             </ul>
           </li>

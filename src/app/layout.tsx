@@ -1,5 +1,5 @@
 import React from "react";
-import { GoogleAnalytics } from '@next/third-parties/google';
+import {GoogleAnalytics} from '@next/third-parties/google';
 import '../styles/index.scss';
 import type {Metadata} from 'next';
 import Navbar from './components/navbar/navbar';
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({children}: { children: React.ReactNode; }) {
   return (
-      <html lang="en">
+    <html lang="en">
       <head>
         <title>Camp Nakamoto</title>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
@@ -25,18 +25,18 @@ export default function RootLayout({children}: { children: React.ReactNode; }) {
         <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Fredoka:wght@300..700&family=Luckiest+Guy&family=Vollkorn+SC:wght@400;600;700;900&display=swap" rel="stylesheet"/>
       </head>
       <body className="site-wrapper">
-          <div className="background-container">
-            <div className="stars"></div>
-            <div className="twinkling"></div>
-            <div className="clouds"></div>
-          </div>
-          <Navbar/>
-          <main className="pt-16">
-            {children}
-          </main>
-          <Footer/>
-        </body>
-        <GoogleAnalytics gaId="G-NBC94XV74K"/>
-      </html>
+        <div className="background-container">
+          <div className="stars"></div>
+          <div className="twinkling"></div>
+          <div className="clouds"></div>
+        </div>
+        <Navbar/>
+        <main className="pt-16">
+          {children}
+        </main>
+        <Footer/>
+      </body>
+      <GoogleAnalytics gaId="G-NBC94XV74K"/>
+    </html>
   );
 }

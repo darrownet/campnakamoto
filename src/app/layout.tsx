@@ -1,5 +1,5 @@
 import React from "react";
-import { GoogleAnalytics } from '@next/third-parties/';
+import { GoogleAnalytics } from '@next/third-parties/google';
 import '../styles/index.scss';
 import type {Metadata} from 'next';
 import Navbar from './components/navbar/navbar';

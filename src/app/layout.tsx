@@ -1,5 +1,5 @@
 import React from "react";
-import GoogleAnalytics from '@next/third-parties/google';
+import { GoogleAnalytics } from '@next/third-parties/';
 import '../styles/index.scss';
 import type {Metadata} from 'next';
 import Navbar from './components/navbar/navbar';
@@ -10,11 +10,7 @@ export const metadata: Metadata = {
   description: 'A Bitcoin Weekend Getaway On New Hampshire\'s Largest Lake',
 };
 
-export default function RootLayout({
-                                     children,
-                                   }: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({children}: { children: React.ReactNode; }) {
   return (
       <html lang="en">
       <head>
@@ -40,7 +36,7 @@ export default function RootLayout({
           </main>
           <Footer/>
         </body>
-        <GoogleAnalytics gaId="G-NBC94XV74K"/>
+        <GoogleAnalytics id="G-NBC94XV74K"/>
       </html>
   );
 }

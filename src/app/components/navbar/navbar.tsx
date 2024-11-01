@@ -36,7 +36,7 @@ const Navbar: React.FC = () => {
           </ul>
           <a className="mass-adoption-badge" href="https://www.massadoption.net/" target="_blank">
             <div className="mass-adoption">
-              <span>Brought to you by Mass Adoption</span>
+              <span>Brought to you by MassAdoption</span>
               <span>
                 <Image src="/images/mass_adoption_logo.png" height={1000} width={1000} alt="Mass Adoption Logo"/>
               </span>

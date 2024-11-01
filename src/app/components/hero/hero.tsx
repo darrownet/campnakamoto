@@ -9,6 +9,11 @@ const Hero: React.FC = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const [videoReady, setVideoReady] = useState(false);
   const [videoError, setVideoError] = useState(false);
+  const [playbackRate] = useState(2);
+
+  useEffect(() => {
+    videoRef.current.playbackRate = playbackRate;
+  }, [playbackRate]);
 
   useEffect(() => {
     let animationFrameId: number;

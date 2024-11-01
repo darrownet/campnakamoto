@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="footer-left">
             <a href="https://www.massadoption.net/contact" target="_blank"><IconEmail/></a>
             <a href="https://www.youtube.com/@massadoptionbtc" target="_blank"><IconYoutube/></a>
-            <a href="https://x.com/BTC_Mass" target="_blank"><IconX/></a>
+            <a href="https://x.com/campnakamoto?s=21&t=0P3tRJeFY9pZd2-HhyTugw" target="_blank"><IconX/></a>
             <a href="https://www.instagram.com/freedomfestival_btc/" target="_blank"><IconInstagram/></a>
           </div>
           <div className="footer-right">

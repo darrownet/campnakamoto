@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
   const [playbackRate] = useState(2);
 
   useEffect(() => {
-    if (videoRef) {
+    if (videoRef && videoRef.current) {
       videoRef.current.playbackRate = playbackRate;
     }
   }, [playbackRate]);

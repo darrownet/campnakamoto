@@ -1,31 +1,33 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
+import {CardBody, CardContainer, CardItem} from "../ui/3d-card";
 
 interface SpeakerCardProps {
-  name: string;
+  name?: string;
   title: string;
-  imageUrl: string;
+  imageUrl?: string;
   description: string;
   onLearnMore: () => void;
 }
 
-const SpeakerCard: React.FC<SpeakerCardProps> = ({ name, title, imageUrl, onLearnMore }) => {
+const SpeakerCard: React.FC<SpeakerCardProps> = ({name, title, imageUrl, onLearnMore}) => {
   return (
       <CardContainer className="inter-var w-full aspect-[4/5] speaker-card-container">
         <h3>{name}</h3>
         <CardBody className="speaker-card-body">
           <CardItem translateZ={100} className="w-full h-full absolute inset-0">
             <div className="relative w-full h-full">
-              <Image
+              {(imageUrl && name) ? <Image
                   src={imageUrl}
                   alt={name}
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   style={{objectFit: "cover"}}
                   className="transition-all duration-300 ease-out group-hover/card:scale-110"
-              />
+              /> : <div className="speaker-stay-tuned">
+                <p>?</p>
+              </div>}
             </div>
           </CardItem>
           <div className="relative z-20 flex flex-col h-full justify-between">
@@ -35,9 +37,9 @@ const SpeakerCard: React.FC<SpeakerCardProps> = ({ name, title, imageUrl, onLear
               </CardItem>
             </div>
             <div className="m-4 justify-center">
-              <CardItem translateZ={20} as="button" onClick={onLearnMore} className="speaker-more-info-button">
+              {name && <CardItem translateZ={20} as="button" onClick={onLearnMore} className="speaker-more-info-button">
                 <span>Learn More</span>
-              </CardItem>
+              </CardItem>}
             </div>
           </div>
         </CardBody>

@@ -52,3 +52,60 @@
 .speaker-more-info-modal {
   background-color: var(--coolest);
 }
+.speaker-stay-tuned {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  p {
+    //padding: 0 8px;
+    //font-size: 12px;
+    //font-weight: bold;
+    //letter-spacing: 0.5px;
+    padding: 0 8px;
+    font-size: 420%;
+    opacity: 0.5;
+  }
+}
+
+@media (min-width: 350px) {
+  .speaker-stay-tuned {
+    p {
+      font-size: 500%;
+    }
+  }
+}
+
+@media (min-width: 370px) {
+  .speaker-stay-tuned {
+    p {
+      font-size: 600%;
+    }
+  }
+}
+
+@media (min-width: 380px) {
+  .speaker-stay-tuned {
+    p {
+      font-size: 720%;
+    }
+  }
+}
+
+@media (min-width: 480px) {
+  .speaker-stay-tuned {
+    p {
+      padding: 0 10%;
+      font-size: 800%;
+    }
+  }
+}
+
+@media (min-width: 540px) {
+  .speaker-stay-tuned {
+    p {
+      font-size: 1000%;
+      line-height: 32px;
+    }
+  }
+}

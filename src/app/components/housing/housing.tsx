@@ -14,17 +14,20 @@ const Housing: React.FC = () => {
         </ul>
         <h3>Accommodation Tiers:</h3>
         <ul>
-          <li><i>🔑</i><strong>Public Keys Tier</strong>:
+          <li><i>🔑</i><strong>Public Keys Tier – Embrace the Communal Spirit:</strong>:
             <ul>
-              <li>Sleep in a six-person cabin featuring 2 bunks and 2 singles.<br/>
-                It&apos;s like a public ledger - open, shared, and full of potential friends.</li>
+              <li><i>Shared Cabins:</i> Experience life in a bustling six-person cabin, complete with 2 bunk beds and 2 single beds.
+                It’s not just a place to sleep; it&apos;s where friendships are minted daily.
+                Think of it as a public ledger, where every interaction is a transaction of camaraderie.</li>
             </ul>
           </li>
-          <li><i>🔐</i><strong>Private Keys Tier</strong>:
+          <li><i>🔐</i><strong>Private Keys Tier – Your Personal Retreat:</strong>:
             <ul>
-              <li>Fancy a bit more privacy or bringing a group? Our housing desk will tailor your stay.<br/>
-                Expect to be contacted to discuss the option of purchasing one of our accommodation upgrades.<br/>
-                ...Because sometimes, you need your private space to ponder your private key security protocol.</li>
+              <li><i>Customized Comfort:</i> Craving a bit more solitude or arriving with your own group?
+                The Private Keys Tier is where your stay becomes as unique as your crypto strategy.
+                Our housing desk will reach out to discuss your preferences, offering tailored accommodations to suit your quest for privacy or space.</li>
+              <li><i>Upgrade Your Experience:</i> Be prepared for a personal consultation once you purchase your ticket.
+                When we reach out, you can discuss options to enhance your stay, ensuring that your private space is as secure and secluded as your private keys security protocol.</li>
             </ul>
           </li>
         </ul>

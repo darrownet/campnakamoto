@@ -84,6 +84,12 @@ const Activities: React.FC = () => {
             perhaps a spontaneous debate on the future of currency. The only thing burning here is passion for
             Satoshi&apos;s gift.
           </li>
+
+          <li><i>🏆</i><strong>Camp Color War</strong>: It&apos;s not just about winning; it&apos;s about building
+            camaraderie, strategy, and maybe a little friendly rivalry. Here, the only thing more electric than the
+            atmosphere is the hash rate spit out from Bitcoin&apos;s network mining rigs!
+          </li>
+
           <li><i>🍸</i><strong>Cocktail Hour Nightly</strong>: Unwind, network, or discuss the day&apos;s gains over
             crafted cocktails. Here, &apos;mixing&apos; isn&apos;t just for <s>sats</s> drinks but for ideas
             too.
@@ -96,7 +102,7 @@ const Activities: React.FC = () => {
         <h3>Sports & Recreation</h3>
         <p>Each of these activities at Camp Nakamoto not only promises fun but also a chance to learn new skills, make
           friends, and perhaps discover a new passion!</p>
-        <Accordion items={sportsAndRec} />
+        <Accordion items={sportsAndRec}/>
         <p>At <strong>Camp Nakamoto</strong>, every activity is a node in the network of your camp experience, linking
           you to new friends, skills, and maybe even your next big investment idea. This is your chance to dive into activities that are as
           diverse as the bitcoin&apos;s ecosystem.</p>

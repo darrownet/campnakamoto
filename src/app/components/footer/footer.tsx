@@ -8,7 +8,9 @@ const Footer = () => {
       <footer>
         <div className="footer-wrapper">
           <div className="footer-left">
-            <a href="https://www.massadoption.net/contact" target="_blank"><IconEmail/></a>
+            <a data-eo-form-toggle-id="4f05de42-9a31-11ef-94c4-432dbbbbc6f0" href="#">
+              <IconEmail/>
+            </a>
             <a href="https://www.youtube.com/@massadoptionbtc" target="_blank"><IconYoutube/></a>
             <a href="https://x.com/campnakamoto?s=21&t=0P3tRJeFY9pZd2-HhyTugw" target="_blank"><IconX/></a>
             <a href="https://www.instagram.com/freedomfestival_btc/" target="_blank"><IconInstagram/></a>

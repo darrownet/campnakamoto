@@ -35,12 +35,6 @@ const Navbar: React.FC = () => {
             ))}
           </ul>
           <div className="mass-adoption">
-            {/*<a className="mass-adoption-badge" href="https://www.massadoption.net/" target="_blank">*/}
-            {/*  <span>Brought to you by MassAdoption</span>*/}
-            {/*  <span>*/}
-            {/*    <Image src="/images/mass_adoption_logo.png" height={1000} width={1000} alt="Mass Adoption Logo"/>*/}
-            {/*  </span>*/}
-            {/*</a>*/}
             <a className="mass-adoption-badge" href="https://www.massadoption.net/" target="_blank">
               <span>Brought to you by MassAdoption</span>
               <span>

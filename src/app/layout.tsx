@@ -15,6 +15,12 @@ export default function RootLayout({children}: { children: React.ReactNode; }) {
       <html lang="en">
       <head>
         <title>Camp Nakamoto</title>
+        <meta name="description"
+              content="An Island Bitcoin Retreat - Disconnect from the digital noise and reconnect with nature. Here, every byte of data and bite of food is served with a view of one of New Hampshire's most beautiful lakes."/>
+        <meta property="og:title" content="Camp Nakamoto"/>
+        <meta property="og:description"
+              content="At Camp Nakamoto, get ready to disconnect from the digital noise and reconnect with nature, while still diving deep into the world of bitcoin and its remnant community. Here, every byte of data and bite of food is served with a view of one of New Hampshire's most beautiful lakes. Since 1899, Sandy Island has been the backdrop for extraordinary experiences, spread across 66 wooded acres in the heart of Lake Winnipesaukee, New Hampshire. Whether your family is by blood or by bitcoin's blockchain, Sandy Island is the perfect place for you and yours to grow in spirit, body, and mind amidst nature's splendor."/>
+        <meta property="og:image" content="https://www.campnakamoto.com/images/camp-nakamoto-badge.png"/>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"/>
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>

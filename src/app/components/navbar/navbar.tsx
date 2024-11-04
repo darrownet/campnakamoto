@@ -34,14 +34,20 @@ const Navbar: React.FC = () => {
                 </li>
             ))}
           </ul>
-          <a className="mass-adoption-badge" href="https://www.massadoption.net/" target="_blank">
-            <div className="mass-adoption">
+          <div className="mass-adoption">
+            {/*<a className="mass-adoption-badge" href="https://www.massadoption.net/" target="_blank">*/}
+            {/*  <span>Brought to you by MassAdoption</span>*/}
+            {/*  <span>*/}
+            {/*    <Image src="/images/mass_adoption_logo.png" height={1000} width={1000} alt="Mass Adoption Logo"/>*/}
+            {/*  </span>*/}
+            {/*</a>*/}
+            <a className="mass-adoption-badge" href="https://www.massadoption.net/" target="_blank">
               <span>Brought to you by MassAdoption</span>
               <span>
                 <Image src="/images/mass_adoption_logo.png" height={1000} width={1000} alt="Mass Adoption Logo"/>
               </span>
-            </div>
-          </a>
+            </a>
+          </div>
           <button className="md:hidden focus:outline-none" onClick={toggleMenu} aria-label="Toggle menu">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                  xmlns="http://www.w3.org/2000/svg">

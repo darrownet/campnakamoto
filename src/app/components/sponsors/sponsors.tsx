@@ -70,6 +70,12 @@ const sponsors: Sponsor[] = [
     imageUrl: '/images/sponsors/logo-events_by_anders.png',
     twitterUrl: 'https://x.com/Anders_',
     websiteUrl: 'https://eventsbyanders.com/'
+  },
+  {
+    name: 'Theya',
+    imageUrl: '/images/sponsors/logo-theya.png',
+    twitterUrl: 'https://x.com/TheyaBitcoin',
+    websiteUrl: 'https://www.theya.us/'
   }
 ];
 

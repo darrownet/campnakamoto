@@ -12,10 +12,10 @@ interface Sponsor {
 //
 const sponsors: Sponsor[] = [
   {
-    name: 'Unchained',
-    imageUrl: '/images/sponsors/logo-unchained.png',
-    twitterUrl: 'https://x.com/unchainedcom',
-    websiteUrl: 'https://unchained.com/'
+    name: 'Theya',
+    imageUrl: '/images/sponsors/logo-theya.png',
+    twitterUrl: 'https://x.com/TheyaBitcoin',
+    websiteUrl: 'https://www.theya.us/'
   },
   {
     name: 'Bitcoin Opportunity Fund',
@@ -24,10 +24,10 @@ const sponsors: Sponsor[] = [
     websiteUrl: 'https://www.bitcoinopportunity.fund/'
   },
   {
-    name: 'Theya',
-    imageUrl: '/images/sponsors/logo-theya.png',
-    twitterUrl: 'https://x.com/TheyaBitcoin',
-    websiteUrl: 'https://www.theya.us/'
+    name: 'Unchained',
+    imageUrl: '/images/sponsors/logo-unchained.png',
+    twitterUrl: 'https://x.com/unchainedcom',
+    websiteUrl: 'https://unchained.com/'
   },
   {
     name: 'Bitcoin Well',

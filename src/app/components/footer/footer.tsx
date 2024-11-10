@@ -17,7 +17,7 @@ const Footer = () => {
           </div>
           <div className="footer-right">
             <span>Copyright © 2024,&nbsp;</span>
-            <a href="https://www.massadoption.net/" target="_blank">MassAdoption LLC.</a>
+            <span>Camp Nakamoto LLC.</span>
             <span className="whitespace-nowrap">&nbsp;All Rights Reserved.</span>
           </div>
         </div>

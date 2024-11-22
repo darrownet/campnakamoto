@@ -116,14 +116,23 @@ const speakers: Speaker[] = [
     active: true
   },
   {
-    name: "",
+    name: "Joe Consorti",
     title: "",
-    twitterHandle: "",
-    imageUrl: "",
-    description: "",
+    twitterHandle: "@JoeConsorti",
+    imageUrl: "/images/speakers/joe_consorti.jpg",
+    description: "A young financial whiz, known for his Bitcoin market analysis as the Institutional Lead at The Bitcoin Layer. He graduated with a BSBA in Finance from UVM in 2022. His insights are often featured in Bitcoin Magazine, where he simplifies the complex world of crypto with a touch of humor. As he is an Eagle Scout, Joe combines traditional values with cutting-edge financial acumen.",
     stats: "",
-    active: false
+    active: true
   }
+  // {
+  //   name: "",
+  //   title: "",
+  //   twitterHandle: "",
+  //   imageUrl: "",
+  //   description: "",
+  //   stats: "",
+  //   active: false
+  // }
 ];
 
 const Speakers: React.FC = () => {

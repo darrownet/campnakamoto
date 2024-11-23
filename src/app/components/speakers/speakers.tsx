@@ -1,6 +1,6 @@
 "use client";
-import React, { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import React, {useState} from "react";
+import {motion, AnimatePresence} from "framer-motion";
 import SpeakerCard from "./speaker-card";
 import Modal from "./modal";
 import SectionWrapper from '../section-wrapper';
@@ -19,7 +19,7 @@ const speakers: Speaker[] = [
   {
     name: "Larry Lepard",
     title: "",
-    twitterHandle: "@LawrencoLepaerd",
+    twitterHandle: "@LawrenceLepard",
     imageUrl: "/images/speakers/larry_lepard.jpg",
     description: "With over 38 years in investment management, Larry has pivoted from traditional venture capital to become a stalwart advocate for gold and Bitcoin. His firm, Equity Management Associates, stands as a beacon for those seeking refuge from inflation through investments in precious metals and bitcoin related investments. Larry's experience spans from the early days of the internet boom to now, where he's a vocal proponent of Bitcoin's role in a sound money future.",
     stats: "",
@@ -64,7 +64,7 @@ const speakers: Speaker[] = [
   {
     name: "Michelle Weekley",
     title: "",
-    twitterHandle: "@michellaweekley",
+    twitterHandle: "@michelleweekley",
     imageUrl: "/images/speakers/michelle_weekley.jpg",
     description: "Michelle has navigated a life trajectory that's as colorful as it is profound. With a background in computer science, Michelle spent over 15 years diving deep into the world of early-stage tech startups. Her adventures took her across the globe, from living in the UAE to working in China, where she dipped her toes in Foreign Direct Investment. It was there, amidst the global landscape, she encountered firsthand the corruption that eventually steered her towards the liberating world of Bitcoin in 2016.",
     stats: "",
@@ -73,7 +73,7 @@ const speakers: Speaker[] = [
   {
     name: "Fred Kreuger",
     title: "",
-    twitterHandle: "@freddotkruegger",
+    twitterHandle: "@dotkrueger",
     imageUrl: "/images/speakers/fred_krueger.jpg",
     description: "Fred Kreuger's familiarity with the Power Law in Bitcoin's price movements has made him a notable figure among traders and analysts. His understanding of this mathematical principle, which suggests Bitcoin's price follows a predictable pattern over time, has provided traders with a tool to anticipate market trends. Kreuger's insights into Bitcoin's market behavior are sought after for their precision and foresight.",
     stats: "",
@@ -123,16 +123,16 @@ const speakers: Speaker[] = [
     description: "A young financial whiz, known for his Bitcoin market analysis as the Institutional Lead at The Bitcoin Layer. He graduated with a BSBA in Finance from UVM in 2022. His insights are often featured in Bitcoin Magazine, where he simplifies the complex world of crypto with a touch of humor. As he is an Eagle Scout, Joe combines traditional values with cutting-edge financial acumen.",
     stats: "",
     active: true
+  },
+  {
+    name: "",
+    title: "",
+    twitterHandle: "",
+    imageUrl: "",
+    description: "",
+    stats: "",
+    active: false
   }
-  // {
-  //   name: "",
-  //   title: "",
-  //   twitterHandle: "",
-  //   imageUrl: "",
-  //   description: "",
-  //   stats: "",
-  //   active: false
-  // }
 ];
 
 const Speakers: React.FC = () => {
@@ -171,7 +171,8 @@ const Speakers: React.FC = () => {
                         title={""}
                         imageUrl={undefined}
                         description={""}
-                        onLearnMore={() => {}}/>
+                        onLearnMore={() => {
+                        }}/>
                   </motion.div>
               );
             }
@@ -182,7 +183,10 @@ const Speakers: React.FC = () => {
           {selectedSpeaker && (
               <Modal isOpen={!!selectedSpeaker} onClose={() => setSelectedSpeaker(null)}>
                 <h2 className="text-3xl font-bold mb-4 text-warmer">{selectedSpeaker.name}</h2>
-                <p className="text-2xl mb-4 text-gray-300">{selectedSpeaker.twitterHandle}</p>
+                <p className="text-2xl mb-4 text-gray-300">
+                  <a href={`https://x.com/${selectedSpeaker.twitterHandle}`}
+                     target="_blank">{selectedSpeaker.twitterHandle}</a>
+                </p>
                 <p className="text-neutrallight mb-4">{selectedSpeaker.description}</p>
               </Modal>
           )}

@@ -50,6 +50,12 @@
   background-color: var(--warmer);
 }
 .speaker-more-info-modal {
+  a {
+    text-decoration: underline;
+  }
+  a:hover {
+    opacity: 0.85;
+  }
   background-color: var(--coolest);
 }
 .speaker-stay-tuned {
@@ -58,10 +64,6 @@
   align-items: center;
   height: 100%;
   p {
-    //padding: 0 8px;
-    //font-size: 12px;
-    //font-weight: bold;
-    //letter-spacing: 0.5px;
     padding: 0 8px;
     font-size: 420%;
     opacity: 0.5;

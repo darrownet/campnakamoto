@@ -72,6 +72,12 @@ const sponsors: Sponsor[] = [
     websiteUrl: 'https://www.1markmoss.com/optin-615411121709722339494'
   },
   {
+    name: 'Born To Be Free',
+    imageUrl: '/images/sponsors/logo-born_to_be_free.png',
+    twitterUrl: 'https://x.com/BornTo_BeFree',
+    websiteUrl: 'https://borntobefree.store/'
+  },
+  {
     name: 'Events By Anders',
     imageUrl: '/images/sponsors/logo-events_by_anders.png',
     twitterUrl: 'https://x.com/Anders_',

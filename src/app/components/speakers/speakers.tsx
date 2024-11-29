@@ -89,6 +89,15 @@ const speakers: Speaker[] = [
     active: true
   },
   {
+    name: "Adam O'Brien",
+    title: "",
+    twitterHandle: "@adamobrien_",
+    imageUrl: "/images/speakers/adam_obrien.jpg",
+    description: "Adam is the visionary behind @TheBitcoinWell, where he's not just banking on Bitcoin but also on making it accessible to everyone, kind of like a digital Johnny Appleseed for a new generation and a new economy. He's been navigating the choppy waters of digital currency since 2013, turning his passion for tech and finance into a mission to re-bank the de-banked.",
+    stats: "",
+    active: true
+  },
+  {
     name: "Texas Slim",
     title: "",
     twitterHandle: "@modernTman",

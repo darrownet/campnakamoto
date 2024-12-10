@@ -130,7 +130,7 @@ const speakers: Speaker[] = [
     title: "",
     twitterHandle: "@JoeConsorti",
     imageUrl: "/images/speakers/joe_consorti.jpg",
-    description: "A young financial whiz, known for his Bitcoin market analysis as the Institutional Lead at The Bitcoin Layer. He graduated with a BSBA in Finance from UVM in 2022. His insights are often featured in Bitcoin Magazine, where he simplifies the complex world of crypto with a touch of humor. As he is an Eagle Scout, Joe combines traditional values with cutting-edge financial acumen.",
+    description: "A young financial whiz, he graduated with a BSBA in Finance from UVM in 2022. Joe, known for his Bitcoin market analysis was the Institutional Lead at The Bitcoin Layer. Currently Joe serves as the Head of Growth at Theya Bitcoin. His insights are often featured in Bitcoin Magazine, where he simplifies the complex world of crypto with a touch of humor. As he is an Eagle Scout, Joe combines traditional values with cutting-edge financial acumen.",
     stats: "",
     active: true
   },

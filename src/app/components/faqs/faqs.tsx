@@ -1,6 +1,7 @@
 import React, {FC} from "react";
 import SectionWrapper from "@/app/components/section-wrapper";
 import Accordion from "@/app/components/ui/accordion-menu/accordion-menu";
+import BuyNow from "@/app/components/buy-now-button";
 
 const faqsData = [
   {
@@ -56,7 +57,8 @@ const faqsData = [
 const Faqs: FC = () => {
   return (
       <SectionWrapper id="faqs" title="FAQs">
-        <Accordion items={faqsData} />
+        <Accordion items={faqsData}/>
+        <div className="mt-8"><BuyNow/></div>
       </SectionWrapper>
   );
 };

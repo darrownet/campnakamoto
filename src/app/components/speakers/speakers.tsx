@@ -4,6 +4,7 @@ import {motion, AnimatePresence} from "framer-motion";
 import SpeakerCard from "./speaker-card";
 import Modal from "./modal";
 import SectionWrapper from '../section-wrapper';
+import BuyNow from "@/app/components/buy-now-button";
 
 interface Speaker {
   name: string;
@@ -200,6 +201,7 @@ const Speakers: React.FC = () => {
               </Modal>
           )}
         </AnimatePresence>
+        <div className="mt-8"><BuyNow /></div>
       </SectionWrapper>
   );
 };

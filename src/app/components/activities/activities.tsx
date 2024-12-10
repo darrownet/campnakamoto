@@ -1,6 +1,7 @@
 import React from 'react';
 import Accordion from "@/app/components/ui/accordion-menu/accordion-menu";
 import SectionWrapper from '../section-wrapper';
+import BuyNow from "@/app/components/buy-now-button";
 
 const sportsAndRec = [
   {
@@ -104,8 +105,10 @@ const Activities: React.FC = () => {
           friends, and perhaps discover a new passion!</p>
         <Accordion items={sportsAndRec}/>
         <p>At <strong>Camp Nakamoto</strong>, every activity is a node in the network of your camp experience, linking
-          you to new friends, skills, and maybe even your next big investment idea. This is your chance to dive into activities that are as
+          you to new friends, skills, and maybe even your next big investment idea. This is your chance to dive into
+          activities that are as
           diverse as the bitcoin&apos;s ecosystem.</p>
+        <div className="mt-8"><BuyNow/></div>
       </SectionWrapper>
   );
 };

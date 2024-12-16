@@ -54,6 +54,12 @@ const sponsors: Sponsor[] = [
     websiteUrl: 'https://satoshisjournal.com/'
   },
   {
+    name: 'Bitcoin Only Events',
+    imageUrl: '/images/sponsors/logo-bitcoin_only_events.png',
+    twitterUrl: 'https://x.com/BitcoinEventsHQ',
+    websiteUrl: 'https://bitcoinonly.events/'
+  },
+  {
     name: 'Proof of Ink',
     imageUrl: '/images/sponsors/logo-proof_of_ink.png',
     twitterUrl: 'https://x.com/ProofofInk',

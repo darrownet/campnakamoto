@@ -72,6 +72,15 @@ const speakers: Speaker[] = [
     active: true
   },
   {
+    name: "Natalie Brunell",
+    title: "",
+    twitterHandle: "@natbrunell",
+    imageUrl: "/images/speakers/natalie_brunell.jpg",
+    description: "Natalie Brunell journalist, podcast host, and Bitcoin educator who was born in Lodz, Poland, and immigrated to the U.S. at age of five. She has an extensive background in investigative journalism, having worked as a senior correspondent for Spectrum News and a national correspondent for ABC News. Natalie is also known for her work in the Bitcoin space, hosting the \"Coin Stories\" podcast where she delves into Bitcoin and economic topics.",
+    stats: "",
+    active: true
+  },
+  {
     name: "Fred Kreuger",
     title: "",
     twitterHandle: "@dotkrueger",
@@ -86,6 +95,15 @@ const speakers: Speaker[] = [
     twitterHandle: "@BJdichter",
     imageUrl: "/images/speakers/bj_dichter.jpg",
     description: "BJ Dichter, known for his leadership in the Canadian Truckers Convoy, brings a perspective on freedom and activism to the Bitcoin space. His involvement in one of the most significant protests against government overreach highlights his commitment to individual liberties. BJ sees Bitcoin not just as a financial tool but as a means for economic freedom, aligning with his activism for personal rights.",
+    stats: "",
+    active: true
+  },
+  {
+    name: "DJ Valerie B LOVE",
+    title: "",
+    twitterHandle: "@djvalerieblove",
+    imageUrl: "/images/speakers/dj_valerie.jpg",
+    description: "Here comes Texas Slim, a man who's as Texan as they come, with a name that sounds like he could've been a character in a spaghetti western, but instead, he's riding the wild plains of the modern food industry. Born and bred in the Lone Star State, Texas Slim has taken the cowboy ethos into the 21st century, lassoing the world of nutrition, agriculture, and Bitcoin with the finesse of a rodeo champion.",
     stats: "",
     active: true
   },

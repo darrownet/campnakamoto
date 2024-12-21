@@ -60,6 +60,12 @@ const sponsors: Sponsor[] = [
     websiteUrl: 'https://bitcoinonly.events/'
   },
   {
+    name: 'Peony Lane',
+    imageUrl: '/images/sponsors/logo-peony_lane.png',
+    twitterUrl: 'https://x.com/peonylanewine',
+    websiteUrl: 'https://www.peonylanewine.com/'
+  },
+  {
     name: 'Proof of Ink',
     imageUrl: '/images/sponsors/logo-proof_of_ink.png',
     twitterUrl: 'https://x.com/ProofofInk',

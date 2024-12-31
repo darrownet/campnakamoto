@@ -72,6 +72,15 @@ const speakers: Speaker[] = [
     active: true
   },
   {
+    name: "Natalie Brunell",
+    title: "",
+    twitterHandle: "@natbrunell",
+    imageUrl: "/images/speakers/natalie_brunell.jpg",
+    description: "Natalie Brunell journalist, podcast host, and Bitcoin educator who was born in Lodz, Poland, and immigrated to the U.S. at age of five. She has an extensive background in investigative journalism, having worked as a senior correspondent for Spectrum News and a national correspondent for ABC News. Natalie is also known for her work in the Bitcoin space, hosting the \"Coin Stories\" podcast where she delves into Bitcoin and economic topics.",
+    stats: "",
+    active: true
+  },
+  {
     name: "Fred Kreuger",
     title: "",
     twitterHandle: "@dotkrueger",
@@ -86,6 +95,15 @@ const speakers: Speaker[] = [
     twitterHandle: "@BJdichter",
     imageUrl: "/images/speakers/bj_dichter.jpg",
     description: "BJ Dichter, known for his leadership in the Canadian Truckers Convoy, brings a perspective on freedom and activism to the Bitcoin space. His involvement in one of the most significant protests against government overreach highlights his commitment to individual liberties. BJ sees Bitcoin not just as a financial tool but as a means for economic freedom, aligning with his activism for personal rights.",
+    stats: "",
+    active: true
+  },
+  {
+    name: "DJ Valerie B LOVE",
+    title: "",
+    twitterHandle: "@djvalerieblove",
+    imageUrl: "/images/speakers/dj_valerie.jpg",
+    description: "DJ Valerie B LOVE is a multifaceted entrepreneur, executive coach, and DJ who founded the 11x LOVE Method to help exhausted executives find harmony across all life areas. She hosts the \"DJ Valerie B LOVE Show,\" a podcast dedicated to truth-seekers and freedom-lovers, focusing on Bitcoin, peace, and personal growth. With her background in music, Valerie has performed globally at events like Burning Man and the Olympics.",
     stats: "",
     active: true
   },

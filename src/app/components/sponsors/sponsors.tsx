@@ -60,6 +60,12 @@ const sponsors: Sponsor[] = [
     websiteUrl: 'https://bitcoinonly.events/'
   },
   {
+    name: 'Orange Pill App',
+    imageUrl: '/images/sponsors/logo-orange_pill_app.png',
+    twitterUrl: 'https://x.com/orangepillapp',
+    websiteUrl: 'https://www.orangepillapp.com/'
+  },
+  {
     name: 'Peony Lane',
     imageUrl: '/images/sponsors/logo-peony_lane.png',
     twitterUrl: 'https://x.com/peonylanewine',

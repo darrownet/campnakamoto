@@ -45,10 +45,6 @@ const faqsData = [
     content: <p>We&apos;ll have indoor activities, blockchain board games, and perhaps a workshop on &apos;The Economics of Weather and Bitcoin Volatility&apos;.</p>
   },
   {
-    title: 'Is there a \'Camp Nakamoto\' token or NFT?',
-    content: <p>Not yet, but suggesting it might just make you the camp&apos;s favorite. Who knows? By next season, we might have our own camp token - &apos;CampCoin&apos;.</p>
-  },
-  {
     title: 'What\'s the \'Twilight Foliage Cocktail Hour Cruise\'?',
     content: <p>An elegant evening where we admire the fall colors from Lake Winnipesaukee, sipping on cocktails, discussing block sizes, and debating whether the sunset&apos;s beauty can be outdone by a well-executed smart contract.</p>
   }

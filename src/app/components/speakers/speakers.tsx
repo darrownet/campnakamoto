@@ -45,15 +45,6 @@ const speakers: Speaker[] = [
     active: true
   },
   {
-    name: "Fred Kreuger",
-    title: "",
-    twitterHandle: "@dotkrueger",
-    imageUrl: "/images/speakers/fred_krueger.jpg",
-    description: "Fred Kreuger's familiarity with the Power Law in Bitcoin's price movements has made him a notable figure among traders and analysts. His understanding of this mathematical principle, which suggests Bitcoin's price follows a predictable pattern over time, has provided traders with a tool to anticipate market trends. Kreuger's insights into Bitcoin's market behavior are sought after for their precision and foresight.",
-    stats: "",
-    active: true
-  },
-  {
     name: "James Lavish",
     title: "",
     twitterHandle: "@jameslavish",

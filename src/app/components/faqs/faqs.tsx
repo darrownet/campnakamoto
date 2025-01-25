@@ -22,7 +22,7 @@ const faqsData = [
   },
   {
     title: 'Will there be Wi-Fi at Camp Nakamoto?',
-    content: <p>Yes, but we encourage digital detox sessions. However, for those critical times when you just can&apos;t wait for Bitcoin&apos;s next block, Wi-Fi will be available. Remember, we&apos;re connecting with nature <i>and</i> the network.</p>
+    content: <p>Yes, but we encourage digital detox sessions. However, for those critical times when you just can&apos;t wait for Bitcoin&apos;s next block, Wi-Fi will be available. Remember, we&apos;re connecting with nature <i>and</i>the network.</p>
   },
   {
     title: 'Is Camp Nakamoto suitable for Bitcoin beginners?',

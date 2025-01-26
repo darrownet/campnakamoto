@@ -41,7 +41,7 @@ const Housing: React.FC = () => {
           <li><i>🔐</i><strong>Private Keys Tier – Your Personal Retreat:</strong>:
             <ul>
               <li><i>Customized Comfort:</i> Craving a bit more solitude or arriving with your own group?
-                The Private Keys Tier is where your stay becomes as unique as your crypto strategy.
+                The Private Keys Tier is where your stay becomes as unique as your stacking strategy.
                 Our housing desk will reach out to discuss your preferences, offering tailored accommodations to suit
                 your quest for privacy or space.
               </li>

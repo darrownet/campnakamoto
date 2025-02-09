@@ -144,6 +144,15 @@ const speakers: Speaker[] = [
     active: true
   },
   {
+    name: "Tim Kotzman",
+    title: "",
+    twitterHandle: "@timkotzman",
+    imageUrl: "/images/speakers/tim_kotzman.jpg",
+    description: "Tim Kotzman is the founder and CEO of Jubilee Royalty, a company focused on integrating ESG considerations into mineral investments. He has a diverse background, having worked in the land and mineral sector of the energy industry for over 12 years, dealing with acquisitions in various US basins. Kotzman also hosts a podcast - Bitcoin Treasuries - where he interviews significant figures in the Bitcoin and MicroStrategy space, showcasing his interest in both traditional energy and cryptocurrency.",
+    stats: "",
+    active: true
+  },
+  {
     name: "",
     title: "",
     twitterHandle: "",

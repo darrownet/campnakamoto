@@ -100,6 +100,12 @@ const sponsors: Sponsor[] = [
     imageUrl: '/images/sponsors/logo-events_by_anders.png',
     twitterUrl: 'https://x.com/Anders_',
     websiteUrl: 'https://eventsbyanders.com/'
+  },
+  {
+    name: 'Bitcoin Treasuries',
+    imageUrl: '/images/sponsors/logo-bitcoin_treasuries.png',
+    twitterUrl: 'https://x.com/TimKotzman',
+    websiteUrl: 'https://www.youtube.com/@timkotzman8925'
   }
 ];
 

@@ -148,7 +148,7 @@ const speakers: Speaker[] = [
     title: "",
     twitterHandle: "@timkotzman",
     imageUrl: "/images/speakers/tim_kotzman.jpg",
-    description: "Tim Kotzman is the founder and CEO of Jubilee Royalty, a company focused on integrating ESG considerations into mineral investments. He has a diverse background, having worked in the land and mineral sector of the energy industry for over 12 years, dealing with acquisitions in various US basins. Kotzman also hosts a podcast - Bitcoin Treasuries - where he interviews significant figures in the Bitcoin and MicroStrategy space, showcasing his interest in both traditional energy and cryptocurrency.",
+    description: "Tim Kotzman is the host of The Bitcoin Treasuries Podcast, where he explores Bitcoin's role in corporate treasury strategies. His podcast features in-depth conversations with industry leaders, including a notable episode with Lyn Alden, a respected macroeconomist and Bitcoin analyst. Kotzman also covers topics related to MicroStrategy, corporate Bitcoin adoption, and investment strategies, providing valuable insights for business and investors. The podcast is available on platforms like Spotify and YouTube. Through these discussions, Kotzman helps his audience navigate the evolving landscape of Bitcoin as a corporate treasury asset.",
     stats: "",
     active: true
   },

@@ -11,6 +11,30 @@ const Hero: React.FC = () => {
   const [videoError, setVideoError] = useState(false);
   const [playbackRate] = useState(2);
 
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+
+  function calculateTimeLeft() {
+    const targetDate = new Date('October 10, 2025 12:00:00');
+    const now = new Date();
+    const difference = targetDate - now;
+
+    if (difference <= 0) {
+      return {
+        days: 0,
+        hours: 0,
+        minutes: 0,
+        seconds: 0
+      };
+    }
+
+    return {
+      days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+      hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+      minutes: Math.floor((difference / 1000 / 60) % 60),
+      seconds: Math.floor((difference / 1000) % 60)
+    };
+  }
+
   useEffect(() => {
     if (videoRef && videoRef.current) {
       videoRef.current.playbackRate = playbackRate;
@@ -62,6 +86,11 @@ const Hero: React.FC = () => {
       videoRef.current.addEventListener('canplay', () => setVideoReady(true));
       videoRef.current.addEventListener('error', () => setVideoError(true));
     }
+    const timer = setInterval(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+    // Cleanup interval on component unmount
+    return () => clearInterval(timer);
   }, []);
 
   return (
@@ -98,17 +127,29 @@ const Hero: React.FC = () => {
           >
             Friday, October 10<sup>th</sup> – Monday, October 13<sup>th</sup> 2025
           </motion.h3>
-          <motion.button
-              className="px-8 py-4 bg-orange-500 text-white font-semibold rounded-lg shadow-lg hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-green-300 focus:ring-opacity-50 transform transition-all duration-300 ease-in-out"
-              whileHover={{scale: 1.05, boxShadow: "0 0 8px rgb(34 197 94 / 60%)"}}
-              whileTap={{scale: 0.95}}
-              initial={{opacity: 0, scale: 0.8}}
-              animate={{opacity: 1, scale: 1}}
-          >
-            <a target="_blank" href="https://massadoptionbtc.ticketspice.com/camp-nakamoto" rel="noopener noreferrer">
-              Buy Tickets
-            </a>
-          </motion.button>
+
+          <motion.h3 className="text-xl sm:text-2xl md:text-3xl mb-8">
+            <div>
+              <span>{timeLeft.days} days </span>
+              <span>{timeLeft.hours} hours </span>
+              <span>{timeLeft.minutes} minutes </span>
+            </div>
+          </motion.h3>
+
+          <div className="flex justify-center items-center">
+            <motion.button
+                className="px-8 py-4 bg-orange-500 text-white font-semibold rounded-lg shadow-lg hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-green-300 focus:ring-opacity-50 transform transition-all duration-300 ease-in-out"
+                whileHover={{scale: 1.05, boxShadow: "0 0 8px rgb(34 197 94 / 60%)"}}
+                whileTap={{scale: 0.95}}
+                initial={{opacity: 0, scale: 0.8}}
+                animate={{opacity: 1, scale: 1}}
+            >
+              <a target="_blank" href="https://massadoptionbtc.ticketspice.com/camp-nakamoto" rel="noopener noreferrer">
+                Buy Tickets
+              </a>
+            </motion.button>
+            <h3 className="ml-4">ONLY 55 Tickets Left!</h3>
+          </div>
         </div>
       </div>
   );

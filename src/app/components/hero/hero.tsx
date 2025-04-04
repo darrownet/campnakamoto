@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
   function calculateTimeLeft() {
     const targetDate = new Date('October 10, 2025 12:00:00');
     const now = new Date();
-    const difference = Number(targetDate - now);
+    const difference = Number(Number(targetDate) - Number(now));
 
     if (difference <= 0) {
       return {

@@ -120,7 +120,7 @@ const Hero: React.FC = () => {
             <img src="/images/camp-nakamoto-badge.png"/>
           </div>
           <motion.h3
-              className="text-xl sm:text-2xl md:text-3xl mb-8"
+              className="text-xl sm:text-2xl md:text-3xl mb-4"
               initial={{opacity: 0, y: 50}}
               animate={{opacity: 1, y: 0}}
               transition={{duration: 0.8, delay: 0.2}}
@@ -128,17 +128,18 @@ const Hero: React.FC = () => {
             Friday, October 10<sup>th</sup> – Monday, October 13<sup>th</sup> 2025
           </motion.h3>
 
-          <motion.h3 className="text-xl sm:text-2xl md:text-3xl mb-8">
-            <div>
+          <div className="hero-countdown">
+            <div className="text-center">
               <span>{timeLeft.days} days </span>
               <span>{timeLeft.hours} hours </span>
               <span>{timeLeft.minutes} minutes </span>
             </div>
-          </motion.h3>
+            <div className="ml-4 text-center underline">ONLY 55 Tickets Left!</div>
+          </div>
 
           <div className="flex justify-center items-center">
             <motion.button
-                className="px-8 py-4 bg-orange-500 text-white font-semibold rounded-lg shadow-lg hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-green-300 focus:ring-opacity-50 transform transition-all duration-300 ease-in-out"
+                className="px-8 py-2 bg-orange-500 text-white font-semibold rounded-lg shadow-lg hover:bg-green-500 focus:outline-none focus:ring-2 focus:ring-green-300 focus:ring-opacity-50 transform transition-all duration-300 ease-in-out"
                 whileHover={{scale: 1.05, boxShadow: "0 0 8px rgb(34 197 94 / 60%)"}}
                 whileTap={{scale: 0.95}}
                 initial={{opacity: 0, scale: 0.8}}
@@ -148,7 +149,6 @@ const Hero: React.FC = () => {
                 Buy Tickets
               </a>
             </motion.button>
-            <h3 className="ml-4">ONLY 55 Tickets Left!</h3>
           </div>
         </div>
       </div>

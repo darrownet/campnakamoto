@@ -37,3 +37,17 @@
 .hero-copy button > a {
   font-size: 200%;
 }
+
+.hero-countdown {
+  display: flex;
+  background: white;
+  text-shadow: none;
+  padding: 10px 50px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  border-radius: 24px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}

@@ -134,7 +134,7 @@ const Hero: React.FC = () => {
               <span>{timeLeft.hours} hours </span>
               <span>{timeLeft.minutes} minutes </span>
             </div>
-            <div className="ml-4 text-center underline">ONLY 53 Tickets Left!</div>
+            <div className="ml-4 text-center underline">ONLY 49 Tickets Left!</div>
           </div>
 
           <div className="flex justify-center items-center">

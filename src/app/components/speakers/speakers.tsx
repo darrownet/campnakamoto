@@ -218,7 +218,7 @@ const Speakers: React.FC = () => {
             }
           })}
         </div>
-        <h2 className="mt-24">Remote Speakers</h2>
+        <h2 className="mt-24">Virtual Speakers</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-8">
         {remoteSpeakers.map((speaker, index) => {
           if (speaker.active) {

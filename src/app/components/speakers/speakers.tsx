@@ -178,83 +178,54 @@ const speakers: Speaker[] = [
 const Speakers: React.FC = () => {
   const [selectedSpeaker, setSelectedSpeaker] = useState<Speaker | null>(null);
 
+  const renderSpeaker = (speaker: any, index: number) => {
+    if (speaker.active) {
+      return (
+          <motion.div
+              key={speaker.name}
+              initial={{opacity: 0, y: 20}}
+              animate={{opacity: 1, y: 0}}
+              transition={{duration: 0.5, delay: index * 0.1}}
+              className="self-end">
+            <SpeakerCard
+                name={speaker.name}
+                title={speaker.title}
+                imageUrl={speaker.imageUrl}
+                description={speaker.description}
+                onLearnMore={() => setSelectedSpeaker(speaker)}/>
+          </motion.div>
+      );
+    } else {
+      return (
+          <motion.div
+              key={speaker.name}
+              initial={{opacity: 0, y: 20}}
+              animate={{opacity: 1, y: 0}}
+              transition={{duration: 0.5, delay: index * 0.1}}
+              className="self-end">
+            <SpeakerCard
+                name={undefined}
+                title={""}
+                imageUrl={undefined}
+                description={""}
+                onLearnMore={() => {
+                }}/>
+          </motion.div>
+      );
+    }
+  }
+
   return (
       <SectionWrapper id="speakers" title="Participants & Panelists">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-8">
           {speakers.map((speaker, index) => {
-            if (speaker.active) {
-              return (
-                  <motion.div
-                      key={speaker.name}
-                      initial={{opacity: 0, y: 20}}
-                      animate={{opacity: 1, y: 0}}
-                      transition={{duration: 0.5, delay: index * 0.1}}
-                      className="self-end">
-                    <SpeakerCard
-                        name={speaker.name}
-                        title={speaker.title}
-                        imageUrl={speaker.imageUrl}
-                        description={speaker.description}
-                        onLearnMore={() => setSelectedSpeaker(speaker)}/>
-                  </motion.div>
-              );
-            } else {
-              return (
-                  <motion.div
-                      key={speaker.name}
-                      initial={{opacity: 0, y: 20}}
-                      animate={{opacity: 1, y: 0}}
-                      transition={{duration: 0.5, delay: index * 0.1}}
-                      className="self-end">
-                    <SpeakerCard
-                        name={undefined}
-                        title={""}
-                        imageUrl={undefined}
-                        description={""}
-                        onLearnMore={() => {
-                        }}/>
-                  </motion.div>
-              );
-            }
+            return renderSpeaker(speaker, index);
           })}
         </div>
         <h2 className="mt-24">Virtual Speakers</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-8">
         {remoteSpeakers.map((speaker, index) => {
-          if (speaker.active) {
-            return (
-                <motion.div
-                    key={speaker.name}
-                    initial={{opacity: 0, y: 20}}
-                    animate={{opacity: 1, y: 0}}
-                    transition={{duration: 0.5, delay: index * 0.1}}
-                    className="self-end">
-                  <SpeakerCard
-                      name={speaker.name}
-                      title={speaker.title}
-                      imageUrl={speaker.imageUrl}
-                      description={speaker.description}
-                      onLearnMore={() => setSelectedSpeaker(speaker)}/>
-                </motion.div>
-            );
-          } else {
-            return (
-                <motion.div
-                    key={speaker.name}
-                    initial={{opacity: 0, y: 20}}
-                    animate={{opacity: 1, y: 0}}
-                    transition={{duration: 0.5, delay: index * 0.1}}
-                    className="self-end">
-                  <SpeakerCard
-                      name={undefined}
-                      title={""}
-                      imageUrl={undefined}
-                      description={""}
-                      onLearnMore={() => {
-                      }}/>
-                </motion.div>
-            );
-          }
+          return renderSpeaker(speaker, index);
         })}
         </div>
         <h4 className="mt-12">...stay tuned for the reveal of more names that will sweeten your journey down the rabbit hole!</h4>

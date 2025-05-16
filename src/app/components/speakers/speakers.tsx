@@ -16,6 +16,27 @@ interface Speaker {
   active: boolean;
 }
 
+const remoteSpeakers: Speaker[] = [
+  {
+    name: "James Lavish",
+    title: "",
+    twitterHandle: "@jameslavish",
+    imageUrl: "/images/speakers/james_lavish.jpg",
+    description: "James Lavish, CFA, isn't your average financial guru; he's a reformed hedge-fund manager, an ex-Yale hockey player, and now, a beacon of financial wisdom in a world where money seems to evaporate faster than ice in a microwave. With over 25 years navigating the shark-infested waters of institutional investing, James has dodged more financial icebergs than the Titanic.",
+    stats: "",
+    active: true
+  },
+  {
+    name: "",
+    title: "",
+    twitterHandle: "",
+    imageUrl: "",
+    description: "",
+    stats: "",
+    active: false
+  }
+];
+
 const speakers: Speaker[] = [
   {
     name: "Natalie Brunell",
@@ -41,15 +62,6 @@ const speakers: Speaker[] = [
     twitterHandle: "@LawrenceLepard",
     imageUrl: "/images/speakers/larry_lepard.jpg",
     description: "With over 38 years in investment management, Larry has pivoted from traditional venture capital to become a stalwart advocate for gold and Bitcoin. His firm, Equity Management Associates, stands as a beacon for those seeking refuge from inflation through investments in precious metals and bitcoin related investments. Larry's experience spans from the early days of the internet boom to now, where he's a vocal proponent of Bitcoin's role in a sound money future.",
-    stats: "",
-    active: true
-  },
-  {
-    name: "James Lavish",
-    title: "",
-    twitterHandle: "@jameslavish",
-    imageUrl: "/images/speakers/james_lavish.jpg",
-    description: "James Lavish, CFA, isn't your average financial guru; he's a reformed hedge-fund manager, an ex-Yale hockey player, and now, a beacon of financial wisdom in a world where money seems to evaporate faster than ice in a microwave. With over 25 years navigating the shark-infested waters of institutional investing, James has dodged more financial icebergs than the Titanic.",
     stats: "",
     active: true
   },
@@ -206,7 +218,46 @@ const Speakers: React.FC = () => {
             }
           })}
         </div>
-        <h4>...stay tuned for the reveal of more names that will sweeten your journey down the rabbit hole!</h4>
+        <h2 className="mt-24">Remote Speakers</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-8">
+        {remoteSpeakers.map((speaker, index) => {
+          if (speaker.active) {
+            return (
+                <motion.div
+                    key={speaker.name}
+                    initial={{opacity: 0, y: 20}}
+                    animate={{opacity: 1, y: 0}}
+                    transition={{duration: 0.5, delay: index * 0.1}}
+                    className="self-end">
+                  <SpeakerCard
+                      name={speaker.name}
+                      title={speaker.title}
+                      imageUrl={speaker.imageUrl}
+                      description={speaker.description}
+                      onLearnMore={() => setSelectedSpeaker(speaker)}/>
+                </motion.div>
+            );
+          } else {
+            return (
+                <motion.div
+                    key={speaker.name}
+                    initial={{opacity: 0, y: 20}}
+                    animate={{opacity: 1, y: 0}}
+                    transition={{duration: 0.5, delay: index * 0.1}}
+                    className="self-end">
+                  <SpeakerCard
+                      name={undefined}
+                      title={""}
+                      imageUrl={undefined}
+                      description={""}
+                      onLearnMore={() => {
+                      }}/>
+                </motion.div>
+            );
+          }
+        })}
+        </div>
+        <h4 className="mt-12">...stay tuned for the reveal of more names that will sweeten your journey down the rabbit hole!</h4>
         <AnimatePresence>
           {selectedSpeaker && (
               <Modal isOpen={!!selectedSpeaker} onClose={() => setSelectedSpeaker(null)}>

@@ -12,16 +12,16 @@ interface Sponsor {
 //
 const sponsors: Sponsor[] = [
   {
-    name: 'Theya',
-    imageUrl: '/images/sponsors/logo-theya.png',
-    twitterUrl: 'https://x.com/TheyaBitcoin',
-    websiteUrl: 'https://www.theya.us/'
-  },
-  {
     name: 'Bitcoin Opportunity Fund',
     imageUrl: '/images/sponsors/logo-bitcoin_opportunity_fund.png',
     twitterUrl: 'https://x.com/BTCOppFund',
     websiteUrl: 'https://www.bitcoinopportunity.fund/'
+  },
+  {
+    name: 'Market Disruptors',
+    imageUrl: '/images/sponsors/logo-market_disruptors.png',
+    twitterUrl: 'https://x.com/MDisruptors',
+    websiteUrl: 'https://www.1markmoss.com/optin-615411121709722339494'
   },
   {
     name: 'Unchained',
@@ -30,16 +30,16 @@ const sponsors: Sponsor[] = [
     websiteUrl: 'https://unchained.com/'
   },
   {
-    name: 'Bitcoin Well',
-    imageUrl: '/images/sponsors/logo-bitcoin_well.png',
-    twitterUrl: 'https://x.com/TheBitcoinWell',
-    websiteUrl: 'https://bitcoinwell.com/'
-  },
-  {
     name: 'Bitcoin News',
     imageUrl: '/images/sponsors/logo-bitcoin_news.png',
     twitterUrl: 'https://x.com/BitcoinNewsCom',
     websiteUrl: 'https://bitcoinnews.com/'
+  },
+  {
+    name: 'Bitcoin Treasuries',
+    imageUrl: '/images/sponsors/logo-bitcoin_treasuries.png',
+    twitterUrl: 'https://x.com/TimKotzman',
+    websiteUrl: 'https://www.youtube.com/@timkotzman8925'
   },
   {
     name: 'The Beef Initiative',
@@ -48,16 +48,10 @@ const sponsors: Sponsor[] = [
     websiteUrl: 'https://beefinitiative.com/'
   },
   {
-    name: 'Satoshi%apos;s Journal',
-    imageUrl: '/images/sponsors/logo-satoshis_journal.png',
-    twitterUrl: 'https://x.com/SatoshisJournal',
-    websiteUrl: 'https://satoshisjournal.com/'
-  },
-  {
-    name: 'Bitcoin Only Events',
-    imageUrl: '/images/sponsors/logo-bitcoin_only_events.png',
-    twitterUrl: 'https://x.com/BitcoinEventsHQ',
-    websiteUrl: 'https://bitcoinonly.events/'
+    name: 'Coin Stories',
+    imageUrl: '/images/sponsors/logo-coin_stories.png',
+    twitterUrl: 'https://x.com/natbrunell',
+    websiteUrl: 'https://podcasts.apple.com/us/podcast/coin-stories/id1569130932'
   },
   {
     name: 'Orange Pill App',
@@ -66,28 +60,16 @@ const sponsors: Sponsor[] = [
     websiteUrl: 'https://www.orangepillapp.com/'
   },
   {
-    name: 'Peony Lane',
-    imageUrl: '/images/sponsors/logo-peony_lane.png',
-    twitterUrl: 'https://x.com/peonylanewine',
-    websiteUrl: 'https://www.peonylanewine.com/'
-  },
-  {
     name: 'Proof of Ink',
     imageUrl: '/images/sponsors/logo-proof_of_ink.png',
     twitterUrl: 'https://x.com/ProofofInk',
     websiteUrl: 'https://proofofink.com/'
   },
   {
-    name: 'Panties For Bitcoin',
-    imageUrl: '/images/sponsors/logo-panties_for_bitcoin.png',
-    twitterUrl: 'https://x.com/PantiesBitcoin',
-    websiteUrl: 'https://www.pantiesforbitcoin.com/'
-  },
-  {
-    name: 'Market Disruptors',
-    imageUrl: '/images/sponsors/logo-market_disruptors.png',
-    twitterUrl: 'https://x.com/MDisruptors',
-    websiteUrl: 'https://www.1markmoss.com/optin-615411121709722339494'
+    name: 'Peony Lane',
+    imageUrl: '/images/sponsors/logo-peony_lane.png',
+    twitterUrl: 'https://x.com/peonylanewine',
+    websiteUrl: 'https://www.peonylanewine.com/'
   },
   {
     name: 'Born To Be Free',
@@ -102,10 +84,40 @@ const sponsors: Sponsor[] = [
     websiteUrl: 'https://eventsbyanders.com/'
   },
   {
-    name: 'Bitcoin Treasuries',
-    imageUrl: '/images/sponsors/logo-bitcoin_treasuries.png',
-    twitterUrl: 'https://x.com/TimKotzman',
-    websiteUrl: 'https://www.youtube.com/@timkotzman8925'
+    name: 'Tensile',
+    imageUrl: '/images/sponsors/logo-tensile.png',
+    twitterUrl: 'https://x.com/TentsileUSA',
+    websiteUrl: 'https://www.tentsile.com/'
+  },
+  {
+    name: 'Bitcoin Well',
+    imageUrl: '/images/sponsors/logo-bitcoin_well.png',
+    twitterUrl: 'https://x.com/TheBitcoinWell',
+    websiteUrl: 'https://bitcoinwell.com/'
+  },
+  {
+    name: 'Theya',
+    imageUrl: '/images/sponsors/logo-theya.png',
+    twitterUrl: 'https://x.com/TheyaBitcoin',
+    websiteUrl: 'https://www.theya.us/'
+  },
+  {
+    name: 'Satoshi%apos;s Journal',
+    imageUrl: '/images/sponsors/logo-satoshis_journal.png',
+    twitterUrl: 'https://x.com/SatoshisJournal',
+    websiteUrl: 'https://satoshisjournal.com/'
+  },
+  {
+    name: 'Panties For Bitcoin',
+    imageUrl: '/images/sponsors/logo-panties_for_bitcoin.png',
+    twitterUrl: 'https://x.com/PantiesBitcoin',
+    websiteUrl: 'https://www.pantiesforbitcoin.com/'
+  },
+  {
+    name: 'Bitcoin Only Events',
+    imageUrl: '/images/sponsors/logo-bitcoin_only_events.png',
+    twitterUrl: 'https://x.com/BitcoinEventsHQ',
+    websiteUrl: 'https://bitcoinonly.events/'
   }
 ];
 

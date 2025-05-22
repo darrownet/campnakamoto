@@ -27,6 +27,16 @@ const remoteSpeakers: Speaker[] = [
     active: true
   },
   {
+    name: "Greg Foss",
+    title: "",
+    twitterHandle: "@FossGregfoss",
+    imageUrl: "/images/speakers/greg_foss.jpg",
+    description: "35+ years in risk management. McGill & Cornell alum. Bitcoin advocate, viewing it as a critical IQ test in risk strategy. Believes all fiats are \"melting ice cubes.\" Passionate about freedom and family. #forthekids" +
+        "\n",
+    stats: "",
+    active: true
+  },
+  {
     name: "",
     title: "",
     twitterHandle: "",

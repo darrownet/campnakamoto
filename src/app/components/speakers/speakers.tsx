@@ -175,6 +175,15 @@ const speakers: Speaker[] = [
     active: true
   },
   {
+    name: "Kane Mcgukin",
+    title: "",
+    twitterHandle: "@kanemcgukin",
+    imageUrl: "/images/speakers/kane_mcgukin.jpg",
+    description: "Kane McGukin is a Senior Data Strategist at Arkos Global Advisors, with over 13 years of experience in wealth management, previously working at Bear Stearns and UBS. He graduated from Auburn University in 2004 with a B.B.A. in Finance. Passionate about technology, financial markets, and digital assets like Bitcoin, he focuses on delivering digital financial tools to help individuals build wealth. Kane authors The Mesh Point blog on Substack and hosts the Navigating Bitcoin’s Noise podcast, exploring the intersection of traditional and crypto markets.",
+    stats: "",
+    active: true
+  },
+  {
     name: "",
     title: "",
     twitterHandle: "",

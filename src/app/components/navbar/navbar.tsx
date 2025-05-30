@@ -48,6 +48,11 @@ const Navbar: React.FC = () => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
             </svg>
           </button>
+          <div className="shop">
+            <a className="shop-badge" href="https://shop.campnakamoto.com/" target="_blank">
+              <span>Store</span>
+            </a>
+          </div>
         </div>
         {isOpen && (<ul className="md:hidden nav-mobile">
           {navItems.map((item) => (

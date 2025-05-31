@@ -65,6 +65,39 @@
     }
   }
 
+  .shop {
+    position: absolute;
+    right: 0;
+    bottom: -28px;
+    width: 86px;
+    height: 42px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px 0 0 4px;
+    border-bottom-left-radius: 16px;
+    background-color: var(--warmest);
+
+    .shop-badge {
+      padding: 0;
+      color: var(--neutral-light);
+      border-color: var(--neutral-light);
+      text-align: center;
+      span {
+        display: flex;
+        width: 70px;
+        height: 28px;
+        border: 1px solid;
+        border-radius: 16px;
+        justify-content: center;
+      }
+    }
+
+    .shop-badge:hover {
+      color: var(--warm);
+      border-color: var(--warm);
+    }
+  }
+
   .nav-container {
     display: flex;
     justify-content: space-between;

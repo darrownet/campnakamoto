@@ -37,6 +37,17 @@ const remoteSpeakers: Speaker[] = [
     active: true
   },
   {
+    name: "Ben Justman",
+    title: "",
+    twitterHandle: "@benjustman",
+    imageUrl: "/images/speakers/ben_justman.jpg",
+    description: "Ben Justman, from Papillion, Nebraska, is an entrepreneur and vocal Bitcoin enthusiast. In 2019, he launched Peony Lane Wine, a boutique winery that quickly gained recognition, earning awards for its inaugural wine release. A fervent advocate for cryptocurrency, Justman actively promotes Bitcoin emphasizing its potential to revolutionize finance." +
+        "\n" +
+        "\n",
+    stats: "",
+    active: true
+  },
+  {
     name: "",
     title: "",
     twitterHandle: "",

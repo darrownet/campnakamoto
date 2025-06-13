@@ -195,15 +195,6 @@ const speakers: Speaker[] = [
     active: true
   },
   {
-    name: "Brandon Uttley",
-    title: "",
-    twitterHandle: "@brandonuttley",
-    imageUrl: "/images/speakers/brandon_uttley.jpg",
-    description: "Brandon Uttley is a seasoned web marketing and public relations professional with over 30 years of experience. He's a PMP® Certified Project Manager and has served as president of the PRSA Charlotte chapter in 2009. Brandon is the founder and CEO of Go For Launch, an educational and marketing resource for entrepreneurs, and has authored the Amazon #1 Best Seller Pod Castaway. Brandon hosts the Go For Launch podcast where he shares insights on bitcoin, branding, digital marketing, and entrepreneurship.",
-    stats: "",
-    active: true
-  },
-  {
     name: "",
     title: "",
     twitterHandle: "",

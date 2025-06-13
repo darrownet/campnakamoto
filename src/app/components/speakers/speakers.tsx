@@ -195,6 +195,15 @@ const speakers: Speaker[] = [
     active: true
   },
   {
+    name: "Brandon Gentile",
+    title: "",
+    twitterHandle: "@brandon_gentile",
+    imageUrl: "/images/speakers/brandon_gentile.jpg",
+    description: "Brandon Gentile is a former professional hockey player, business owner, investor, and advocate for Bitcoin and financial literacy. As the head of marketing and PR at Bitcoin Trading Cards, He promotes sound money and freedom through collectibles that aim to educate the masses about Bitcoin. He hosts the Playable Characters Show, a podcast exploring Bitcoin, macroeconomics, liberty, and financial literacy, drawing on his diverse experiences to discuss Bitcoin's role in decentralized finance and its potential to disrupt traditional financial systems.",
+    stats: "",
+    active: true
+  },
+  {
     name: "",
     title: "",
     twitterHandle: "",

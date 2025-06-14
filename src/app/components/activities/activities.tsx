@@ -72,9 +72,9 @@ const Activities: React.FC = () => {
             voyage into the essence of fall and the future of finance, a toast to the artistry of nature and the
             ingenuity of Satoshi.
           </li>
-          <li><i>🛣</i><strong>Bitcoin Road</strong>: Walk through &apos;Living CandyLand&apos;, but with a twist -
-            it&apos;s all about Bitcoins! Get to hyperbitcoinization first!, win treats, and maybe even some sats!
-          </li>
+          {/*<li><i>🛣</i><strong>Bitcoin Road</strong>: Walk through &apos;Living CandyLand&apos;, but with a twist -*/}
+          {/*  it&apos;s all about Bitcoins! Get to hyperbitcoinization first!, win treats, and maybe even some sats!*/}
+          {/*</li>*/}
           <li><i>✂️</i><strong>Arts & Crafts</strong>: Get hands-on with leather crafting or tie-dyeing. Make something
             tangible in this digital world. Your wallet&apos;s not just for storing sats anymore!
           </li>

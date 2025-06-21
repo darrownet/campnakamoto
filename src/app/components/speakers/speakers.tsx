@@ -48,6 +48,15 @@ const remoteSpeakers: Speaker[] = [
     active: true
   },
   {
+    name: "Seb Bunney",
+    title: "",
+    twitterHandle: "@sebbunney",
+    imageUrl: "/images/speakers/seb_bunney.jpg",
+    description: "Seb Bunney is a Bitcoin educator, author, and co-founder of Looking Glass Education, a platform focused on financial literacy. He's authored The Hidden Cost of Money, and co-authored B is for Bitcoin. As Chief Information Officer at Block Rewards, he integrates Bitcoin into payroll and benefits. A contributor to Bitcoin Magazine, he advocates for Bitcoin as a solution to fiat system flaws, emphasizing decentralization and sound money. His newsletter, The Qi of Self-Sovereignty, delves into aligning money with personal values.",
+    stats: "",
+    active: true
+  },
+  {
     name: "",
     title: "",
     twitterHandle: "",

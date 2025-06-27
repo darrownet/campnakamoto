@@ -6,6 +6,7 @@ import Location from "@/app/components/location/location";
 import Speakers from "@/app/components/speakers/speakers";
 import Faqs from "@/app/components/faqs/faqs";
 import Sponsors from "@/app/components/sponsors/sponsors";
+import Treasury from "@/app/components/treasury/treasury";
 
 import Hero from "@/app/components/hero/hero";
 
@@ -20,6 +21,7 @@ const Home: React.FC = () => {
       <Dining/>
       <Faqs/>
       <Sponsors/>
+      <Treasury/>
     </div>
   );
 }

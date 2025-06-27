@@ -4,14 +4,15 @@ interface SectionWrapperProps {
   id: string;
   title: string;
   children: React.ReactNode;
+  hideTitle?: boolean;
 }
 
-const SectionWrapper: React.FC<SectionWrapperProps> = ({ id, title, children }) => {
+const SectionWrapper: React.FC<SectionWrapperProps> = ({ id, title, children, hideTitle = false }) => {
   return (
     <>
       <div className="section-divider" id={id}>&nbsp;</div>
       <section>
-        <h2>{title}</h2>
+        {!hideTitle && <h2>{title}</h2>}
         {children}
       </section>
     </>

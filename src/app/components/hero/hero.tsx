@@ -119,6 +119,12 @@ const Hero: React.FC = () => {
           <div className="hero-logo">
             <img src="/images/camp-nakamoto-badge.png"/>
           </div>
+          <div className="flex justify-center items-center">
+            <span className="font-medium italic">running a bitcoin treasury...</span>
+            <span className="w-11 ml-2">
+              <img src="/images/bitcoin_treasury_stamp.png"/>
+            </span>
+          </div>
           <motion.h3
               className="text-xl sm:text-2xl md:text-3xl mb-4"
               initial={{opacity: 0, y: 50}}

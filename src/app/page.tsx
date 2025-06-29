@@ -21,7 +21,6 @@ const Home: React.FC = () => {
       <Dining/>
       <Faqs/>
       <Sponsors/>
-      <Treasury/>
     </div>
   );
 }

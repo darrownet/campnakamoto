@@ -12,16 +12,21 @@ import Hero from "@/app/components/hero/hero";
 
 const Home: React.FC = () => {
   return (
-    <div className="camp-nakamoto">
-      <Hero/>
-      <Location/>
-      <Speakers/>
-      <Activities/>
-      <Housing/>
-      <Dining/>
-      <Faqs/>
-      <Sponsors/>
-    </div>
+      <>
+        <div className="camp-nakamoto">
+          <Hero/>
+          <Location/>
+          <Speakers/>
+          <Activities/>
+          <Housing/>
+          <Dining/>
+          <Faqs/>
+          <Sponsors/>
+        </div>
+        <div className="bitcoin-treasury-stamp">
+          <img src="/images/bitcoin_treasury_stamp.png"/>
+        </div>
+      </>
   );
 }
 

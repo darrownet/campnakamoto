@@ -2,8 +2,18 @@
 @import "./variables";
 @import "./base";
 
-.camp-nakamoto{
+.camp-nakamoto {
   padding: 12px 12px 18px 12px;
+}
+
+.bitcoin-treasury-stamp {
+  position: fixed;
+  right: 4px;
+  bottom: 4px;
+  img {
+    height: 44px;
+    width: 44px;
+  }
 }
 
 .site-wrapper {

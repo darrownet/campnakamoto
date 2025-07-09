@@ -48,6 +48,15 @@ const remoteSpeakers: Speaker[] = [
     active: true
   },
   {
+    name: "Rob Wallace",
+    title: "",
+    twitterHandle: "@_Rob_Wallace",
+    imageUrl: "/images/speakers/rob_wallace.jpg",
+    description: "Rob Wallace is the Co-Founder of Bitcoin News, a media platform focused on delivering accurate and insightful updates about Bitcoin and the Lightning Network. He hosts interviews on Bitcoin News’ YouTube channel, engaging with prominent figures in the Bitcoin ecosystem to discuss its role in the evolving financial landscape.",
+    stats: "",
+    active: true
+  },
+  {
     name: "Seb Bunney",
     title: "",
     twitterHandle: "@sebbunney",

@@ -23,11 +23,12 @@ const Dining: React.FC = () => {
           <li className="meal"><strong>Friday Dinner</strong> - Welcome BBQ: Kick off your camp journey with a BBQ
             that&apos;s as welcoming as a bull market.
           </li>
-          <li className="meal"><strong>Saturday Dinner</strong> - Cookout: Grill and chill under the stars, where the
-            only thing getting roasted more than marshmallows is the concept of centralized banking.
+          <li className="meal"><strong>Saturday Dinner</strong> - <strong>Cattleman&apos;s Feast</strong>: A feast fit for
+            bitcoin royalty. Beef up your evening with this legendary spread brought to you by none other than the venerable
+            Texas Slim.
           </li>
-          <li className="meal"><strong>Sunday Dinner</strong> - <strong>Cattleman&apos;s Feast</strong>: A feast fit for
-            bitcoin royalty. Beef up your evening with this legendary spread.
+          <li className="meal"><strong>Sunday Dinner</strong> - New England Clam & Lobster Bake: Dive into a seaside feast
+            as rich and rewarding as a HODLing stack since 2017.
           </li>
           <li className="meal"><strong>Saturday Lunch</strong> - Taco Bar: Build your own tacos, because here, you
             control the toppings like you control your bitcoin portfolio.

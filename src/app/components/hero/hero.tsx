@@ -169,6 +169,10 @@ const Hero: React.FC = () => {
                   <td>Exciting Activities & Entertainment</td>
                   <td>Live Music Performances</td>
                 </tr>
+                <tr>
+                  <td>Exclusive Bitcoin Education Sessions</td>
+                  <td>Unforgettable Memories</td>
+                </tr>
               </tbody>
             </table>
           </div>

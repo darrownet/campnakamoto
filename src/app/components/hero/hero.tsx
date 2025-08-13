@@ -116,9 +116,11 @@ const Hero: React.FC = () => {
           >
             An Island Bitcoin Retreat
           </motion.h2>
+
           <div className="hero-logo">
             <img src="/images/camp-nakamoto-badge.png"/>
           </div>
+
           <motion.h3
               className="text-xl sm:text-2xl md:text-3xl mb-4"
               initial={{opacity: 0, y: 50}}
@@ -134,7 +136,7 @@ const Hero: React.FC = () => {
               <span>{timeLeft.hours} hours </span>
               <span>{timeLeft.minutes} minutes </span>
             </div>
-            <div className="ml-4 text-center underline">ONLY 38 Tickets Left!</div>
+            <div className="ml-4 text-center underline">ONLY 38 out of 100 Tickets Left!</div>
           </div>
 
           <div className="flex justify-center items-center">
@@ -150,6 +152,31 @@ const Hero: React.FC = () => {
               </a>
             </motion.button>
           </div>
+
+          <div className="hero-upsell">
+            <h4>Camp Nakamoto Ticket Includes:</h4>
+            <table>
+              <tbody>
+                <tr>
+                  <td>3 Days & 4 Nights, All-Inclusive</td>
+                  <td>Gourmet Food & Beverages</td>
+                </tr>
+                <tr>
+                  <td>Cattleman’s Feast & New England Lobster Clambake</td>
+                  <td>Hassle-Free Parking & Ferry Access</td>
+                </tr>
+                <tr>
+                  <td>Exciting Activities & Entertainment</td>
+                  <td>Live Music Performances</td>
+                </tr>
+                <tr>
+                  <td>Exclusive Bitcoin Education Sessions</td>
+                  <td>Unforgettable Memories</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
         </div>
       </div>
   );

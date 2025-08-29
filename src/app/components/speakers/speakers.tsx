@@ -18,6 +18,15 @@ interface Speaker {
 
 const remoteSpeakers: Speaker[] = [
   {
+    name: "Natalie Brunell",
+    title: "",
+    twitterHandle: "@natbrunell",
+    imageUrl: "/images/speakers/natalie_brunell.jpg",
+    description: "Natalie Brunell journalist, podcast host, and Bitcoin educator who was born in Lodz, Poland, and immigrated to the U.S. at age of five. She has an extensive background in investigative journalism, having worked as a senior correspondent for Spectrum News and a national correspondent for ABC News. Natalie is also known for her work in the Bitcoin space, hosting the \"Coin Stories\" podcast where she delves into Bitcoin and economic topics.",
+    stats: "",
+    active: true
+  },
+  {
     name: "James Lavish",
     title: "",
     twitterHandle: "@jameslavish",
@@ -50,7 +59,7 @@ const remoteSpeakers: Speaker[] = [
   {
     name: "Rob Wallace",
     title: "",
-    twitterHandle: "@_Rob_Wallace",
+    twitterHandle: "@BitcoinNewsCom",
     imageUrl: "/images/speakers/rob_wallace.jpg",
     description: "Rob Wallace is the Co-Founder of Bitcoin News, a media platform focused on delivering accurate and insightful updates about Bitcoin and the Lightning Network. He hosts interviews on Bitcoin News’ YouTube channel, engaging with prominent figures in the Bitcoin ecosystem to discuss its role in the evolving financial landscape.",
     stats: "",
@@ -77,15 +86,6 @@ const remoteSpeakers: Speaker[] = [
 ];
 
 const speakers: Speaker[] = [
-  {
-    name: "Natalie Brunell",
-    title: "",
-    twitterHandle: "@natbrunell",
-    imageUrl: "/images/speakers/natalie_brunell.jpg",
-    description: "Natalie Brunell journalist, podcast host, and Bitcoin educator who was born in Lodz, Poland, and immigrated to the U.S. at age of five. She has an extensive background in investigative journalism, having worked as a senior correspondent for Spectrum News and a national correspondent for ABC News. Natalie is also known for her work in the Bitcoin space, hosting the \"Coin Stories\" podcast where she delves into Bitcoin and economic topics.",
-    stats: "",
-    active: true
-  },
   {
     name: "Mark Moss",
     title: "",
@@ -143,7 +143,7 @@ const speakers: Speaker[] = [
   {
     name: "Dave Foley",
     title: "",
-    twitterHandle: "@DAAF17",
+    twitterHandle: "@DFoleyBOF",
     imageUrl: "/images/speakers/dave_foley.jpg",
     description: "An investment partner with Lawrence Lepard at Equity Management Associates, David Foley is deeply involved in strategies focusing on Bitcoin and precious metals. Alongside James Lavish, David co-manages the Bitcoin Opportunity Fund, navigating both public and private sectors of Bitcoin investment. His approach combines a keen understanding of market trends with a strategic investment mindset, pioneering the future of money through Bitcoin.",
     stats: "",

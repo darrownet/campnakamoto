@@ -60,6 +60,12 @@ const sponsors: Sponsor[] = [
     websiteUrl: 'https://www.orangepillapp.com/'
   },
   {
+    name: 'Zaprite',
+    imageUrl: '/images/sponsors/logo-zaprite.png',
+    twitterUrl: 'https://x.com/ZapriteApp',
+    websiteUrl: 'https://zaprite.com/'
+  },
+  {
     name: 'Proof of Ink',
     imageUrl: '/images/sponsors/logo-proof_of_ink.png',
     twitterUrl: 'https://x.com/ProofofInk',

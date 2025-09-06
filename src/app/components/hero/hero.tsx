@@ -147,7 +147,7 @@ const Hero: React.FC = () => {
                 initial={{opacity: 0, scale: 0.8}}
                 animate={{opacity: 1, scale: 1}}
             >
-              <a target="_blank" href="https://massadoptionbtc.ticketspice.com/camp-nakamoto" rel="noopener noreferrer">
+              <a target="_blank" href="https://pay.zaprite.com/pl_GEPFAc4TVD" rel="noopener noreferrer">
                 Buy Tickets
               </a>
             </motion.button>

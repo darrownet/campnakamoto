@@ -102,6 +102,12 @@ const sponsors: Sponsor[] = [
     websiteUrl: 'https://bitcoinwell.com/'
   },
   {
+    name: 'Free Market Kids',
+    imageUrl: '/images/sponsors/logo-free_market_kids.png',
+    twitterUrl: 'https://x.com/freemarketkids',
+    websiteUrl: 'https://www.freemarketkids.com/'
+  },
+  {
     name: 'Theya',
     imageUrl: '/images/sponsors/logo-theya.png',
     twitterUrl: 'https://x.com/TheyaBitcoin',

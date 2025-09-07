@@ -16,6 +16,27 @@ interface Speaker {
   active: boolean;
 }
 
+const musicians: Speaker[] = [
+  {
+    name: "Robbie P",
+    title: "",
+    twitterHandle: "@robbiep808x",
+    imageUrl: "/images/speakers/robbie_p.jpg",
+    description: "Robbie P is an innovative musician and speaker from Australia who seamlessly blends the worlds of Bitcoin and music. His unique performance offers an artistic perspective on Bitcoin. Catch him at the conference for a one-of-a-kind rap show featuring music from his upcoming project, Dread Pirate Robbie.",
+    stats: "",
+    active: true
+  },
+  {
+    name: "Chris Wenske",
+    title: "",
+    twitterHandle: "@JondoMedia",
+    imageUrl: "/images/speakers/chris_wenske.jpg",
+    description: "Chris Wenske is a Kansas City based organizer, entrepreneur, and musician with a passion for Bitcoin, community building, and creative projects. He leads local Bitcoin meetups, produces large scale events like the Kansas City Bitcoin Summit and Block Party, and develops innovative ideas that merge technology, education, and financial freedom. With experience in media production, marketing, and business strategy, Chris brings people together to collaborate, learn, and build toward the future all while keeping music as a core part of his identity and expression.",
+    stats: "",
+    active: true
+  }
+];
+
 const remoteSpeakers: Speaker[] = [
   {
     name: "Natalie Brunell",
@@ -277,6 +298,12 @@ const Speakers: React.FC = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-8">
           {speakers.map((speaker, index) => {
             return renderSpeaker(speaker, index);
+          })}
+        </div>
+        <h2 className="mt-24">Musicians</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-8">
+          {musicians.map((musician, index) => {
+            return renderSpeaker(musician, index);
           })}
         </div>
         <h2 className="mt-24">Virtual Speakers</h2>

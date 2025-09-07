@@ -22,7 +22,7 @@ const musicians: Speaker[] = [
     title: "",
     twitterHandle: "@robbiep808x",
     imageUrl: "/images/speakers/robbie_p.jpg",
-    description: "Robbie P is an innovative musician and speaker from Australia who seamlessly blends the worlds of Bitcoin and music. His unique performance offers an artistic perspective on Bitcoin. Catch him at the conference for a one-of-a-kind rap show featuring music from his upcoming project, Dread Pirate Robbie.",
+    description: "Robbie P is an innovative musician and speaker from Australia who seamlessly blends the worlds of Bitcoin and music. His unique performance offers an artistic perspective on Bitcoin. Catch him at the camp for a one-of-a-kind rap show featuring music from his upcoming project, Dread Pirate Robbie.",
     stats: "",
     active: true
   },

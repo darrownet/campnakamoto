@@ -198,15 +198,6 @@ const speakers: Speaker[] = [
     active: true
   },
   {
-    name: "DJ Valerie B LOVE",
-    title: "",
-    twitterHandle: "@djvalerieblove",
-    imageUrl: "/images/speakers/dj_valerie.jpg",
-    description: "DJ Valerie B LOVE is a multifaceted entrepreneur, executive coach, and DJ who founded the 11x LOVE Method to help exhausted executives find harmony across all life areas. She hosts the \"DJ Valerie B LOVE Show,\" a podcast dedicated to truth-seekers and freedom-lovers, focusing on Bitcoin, peace, and personal growth. With her background in music, Valerie has performed globally at events like Burning Man and the Olympics.",
-    stats: "",
-    active: true
-  },
-  {
     name: "Anders Jensen",
     title: "",
     twitterHandle: "@Anders_",

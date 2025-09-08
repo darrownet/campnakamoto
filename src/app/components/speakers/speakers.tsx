@@ -48,6 +48,15 @@ const remoteSpeakers: Speaker[] = [
     active: true
   },
   {
+    name: "Parker Lewis",
+    title: "",
+    twitterHandle: "@parkeralewis",
+    imageUrl: "/images/speakers/parker_lewis.jpg",
+    description: "Parker is the Head of Business Development at Zaprite, a company focused on Bitcoin and Lightning Network solutions. He is a prominent Bitcoin advocate, known for his insights on the cryptocurrency’s technical and economic aspects, particularly its difficulty adjustment, energy consumption, and issuance schedule. Lewis frequently discusses Bitcoin’s role in financial systems and encourages building value within the ecosystem. He is active on X, where he shares his perspectives on Bitcoin and engages with the community.",
+    stats: "",
+    active: true
+  },
+  {
     name: "James Lavish",
     title: "",
     twitterHandle: "@jameslavish",
@@ -185,15 +194,6 @@ const speakers: Speaker[] = [
     twitterHandle: "@modernTman",
     imageUrl: "/images/speakers/texas_slim.jpg",
     description: "Here comes Texas Slim, a man who's as Texan as they come, with a name that sounds like he could've been a character in a spaghetti western, but instead, he's riding the wild plains of the modern food industry. Born and bred in the Lone Star State, Texas Slim has taken the cowboy ethos into the 21st century, lassoing the world of nutrition, agriculture, and Bitcoin with the finesse of a rodeo champion.",
-    stats: "",
-    active: true
-  },
-  {
-    name: "DJ Valerie B LOVE",
-    title: "",
-    twitterHandle: "@djvalerieblove",
-    imageUrl: "/images/speakers/dj_valerie.jpg",
-    description: "DJ Valerie B LOVE is a multifaceted entrepreneur, executive coach, and DJ who founded the 11x LOVE Method to help exhausted executives find harmony across all life areas. She hosts the \"DJ Valerie B LOVE Show,\" a podcast dedicated to truth-seekers and freedom-lovers, focusing on Bitcoin, peace, and personal growth. With her background in music, Valerie has performed globally at events like Burning Man and the Olympics.",
     stats: "",
     active: true
   },

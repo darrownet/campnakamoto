@@ -48,6 +48,15 @@ const remoteSpeakers: Speaker[] = [
     active: true
   },
   {
+    name: "Parker Lewis",
+    title: "",
+    twitterHandle: "@parkeralewis",
+    imageUrl: "/images/speakers/parker_lewis.jpg",
+    description: "Parker is the Head of Business Development at Zaprite, a company focused on Bitcoin and Lightning Network solutions. He is a prominent Bitcoin advocate, known for his insights on the cryptocurrency’s technical and economic aspects, particularly its difficulty adjustment, energy consumption, and issuance schedule. Lewis frequently discusses Bitcoin’s role in financial systems and encourages building value within the ecosystem. He is active on X, where he shares his perspectives on Bitcoin and engages with the community.",
+    stats: "",
+    active: true
+  },
+  {
     name: "James Lavish",
     title: "",
     twitterHandle: "@jameslavish",

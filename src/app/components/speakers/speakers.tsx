@@ -229,7 +229,7 @@ const speakers: Speaker[] = [
     title: "",
     twitterHandle: "@Kevin_McKernan",
     imageUrl: "/images/speakers/kevin_mckernan.jpg",
-    description: "Kevin McKernan is a pioneering genomics scientist and founder of Medicinal Genomics, known for his work on the Cannabis Genome Project and advancing next-generation sequencing technologies, including contributions to the Human Genome Project at MIT. In the Bitcoin space, he advocates for the cryptocurrency's role in fostering censorship-resistant science and decentralized systems. At BTC Prague 2025 He delivered a keynote titled \"Decentralized Money with Centralized Health,\" exploring how Bitcoin can realign incentives for truth and sovereignty in science.",
+    description: "Kevin McKernan is a pioneering genomics scientist and founder of Medicinal Genomics. Kevin is known for his work on the Cannabis Genome Project and advancing next-generation sequencing technologies, including contributions to the Human Genome Project at MIT. In the Bitcoin space, he advocates for the cryptocurrency's role in fostering censorship-resistant science and decentralized systems. At BTC Prague 2025 He delivered a keynote titled \"Decentralized Money with Centralized Health,\" exploring how Bitcoin can realign incentives for truth and sovereignty in science.",
     stats: "",
     active: true
   },

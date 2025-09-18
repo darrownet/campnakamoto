@@ -96,11 +96,11 @@ const remoteSpeakers: Speaker[] = [
     active: true
   },
   {
-    name: "Seb Bunney",
+    name: "DJ Valerie B LOVE",
     title: "",
-    twitterHandle: "@sebbunney",
-    imageUrl: "/images/speakers/seb_bunney.jpg",
-    description: "Seb Bunney is a Bitcoin educator, author, and co-founder of Looking Glass Education, a platform focused on financial literacy. He's authored The Hidden Cost of Money, and co-authored B is for Bitcoin. As Chief Information Officer at Block Rewards, he integrates Bitcoin into payroll and benefits. A contributor to Bitcoin Magazine, he advocates for Bitcoin as a solution to fiat system flaws, emphasizing decentralization and sound money. His newsletter, The Qi of Self-Sovereignty, delves into aligning money with personal values.",
+    twitterHandle: "@djvalerieblove",
+    imageUrl: "/images/speakers/dj_valerie.jpg",
+    description: "DJ Valerie B LOVE is a multifaceted entrepreneur, executive coach, and DJ who founded the 11x LOVE Method to help exhausted executives find harmony across all life areas. She hosts the \"DJ Valerie B LOVE Show,\" a podcast dedicated to truth-seekers and freedom-lovers, focusing on Bitcoin, peace, and personal growth. With her background in music, Valerie has performed globally at events like Burning Man and the Olympics.",
     stats: "",
     active: true
   },
@@ -248,6 +248,15 @@ const speakers: Speaker[] = [
     twitterHandle: "@brandon_gentile",
     imageUrl: "/images/speakers/brandon_gentile.jpg",
     description: "Brandon Gentile is a former professional hockey player, business owner, investor, and advocate for Bitcoin and financial literacy. As the head of marketing and PR at Bitcoin Trading Cards, He promotes sound money and freedom through collectibles that aim to educate the masses about Bitcoin. He hosts the Playable Characters Show, a podcast exploring Bitcoin, macroeconomics, liberty, and financial literacy, drawing on his diverse experiences to discuss Bitcoin's role in decentralized finance and its potential to disrupt traditional financial systems.",
+    stats: "",
+    active: true
+  },
+  {
+    name: "Matt Schiffman",
+    title: "",
+    twitterHandle: "@matt_schiffman",
+    imageUrl: "/images/speakers/matt_schiffman.jpg",
+    description: "Matt Schiffman, with a vibrant background in theater design and production in New York City, blends technical expertise with artistic vision at his new venture, Waveform Engineering. Based in NYC, he is passionate about Bitcoin’s potential to inspire innovative creative expression and incentives. In addition to his theater experience, Matt is a seasoned front-end web developer, UX/UI designer, and producer with over 25 years of experience crafting digital interfaces, from AS3 Flash to modern frameworks like NextJS, and brings 10 years of expertise in fintech to his work.",
     stats: "",
     active: true
   },

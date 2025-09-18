@@ -66,6 +66,12 @@ const sponsors: Sponsor[] = [
     websiteUrl: 'https://zaprite.com/'
   },
   {
+    name: 'Onramp',
+    imageUrl: '/images/sponsors/logo-onramp.png',
+    twitterUrl: 'https://x.com/OnrampBitcoin',
+    websiteUrl: 'https://onrampbitcoin.com/'
+  },
+  {
     name: 'Proof of Ink',
     imageUrl: '/images/sponsors/logo-proof_of_ink.png',
     twitterUrl: 'https://x.com/ProofofInk',

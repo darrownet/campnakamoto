@@ -16,7 +16,7 @@ interface Speaker {
   active: boolean;
 }
 
-const musicians: Speaker[] = [
+const rhythmMovement: Speaker[] = [
   {
     name: "Robbie P",
     title: "",
@@ -32,6 +32,24 @@ const musicians: Speaker[] = [
     twitterHandle: "@JondoMedia",
     imageUrl: "/images/speakers/chris_wenske.jpg",
     description: "Chris Wenske is a Kansas City based organizer, entrepreneur, and musician with a passion for Bitcoin, community building, and creative projects. He leads local Bitcoin meetups, produces large scale events like the Kansas City Bitcoin Summit and Block Party, and develops innovative ideas that merge technology, education, and financial freedom. With experience in media production, marketing, and business strategy, Chris brings people together to collaborate, learn, and build toward the future all while keeping music as a core part of his identity and expression.",
+    stats: "",
+    active: true
+  },
+  {
+    name: "Vince Brown",
+    title: "",
+    twitterHandle: "",
+    imageUrl: "/images/speakers/vince_brown.jpg",
+    description: "Vincent is a seasoned parkour coach and the head coach and co-owner of Adaptive Movement Parkour in Hartford, Connecticut. Vincent has gone through the full student-to-teacher parkour journey with AM Parkour and is excited to join the ARDV Coaching team to share his passion and experience.",
+    stats: "",
+    active: true
+  },
+  {
+    name: "Kate Lemay",
+    title: "",
+    twitterHandle: "",
+    imageUrl: "/images/speakers/kate_lemay.jpg",
+    description: "Kate Lemay&pos;is a 500-hour certified yoga teacher through the Abyhassna Yoga Institute, known for her nature-inspired vinyasa flow classes. Based in New Hampshire, she teaches at Sandy Island Family Camp and leads retreats across the Northeast. At Camp Nakamoto, Kate will offer grounding movement and breathwork to help attendees reconnect with themselves and the present moment.",
     stats: "",
     active: true
   }
@@ -101,6 +119,16 @@ const remoteSpeakers: Speaker[] = [
     twitterHandle: "@djvalerieblove",
     imageUrl: "/images/speakers/dj_valerie.jpg",
     description: "DJ Valerie B LOVE is a multifaceted entrepreneur, executive coach, and DJ who founded the 11x LOVE Method to help exhausted executives find harmony across all life areas. She hosts the \"DJ Valerie B LOVE Show,\" a podcast dedicated to truth-seekers and freedom-lovers, focusing on Bitcoin, peace, and personal growth. With her background in music, Valerie has performed globally at events like Burning Man and the Olympics.",
+    stats: "",
+    active: true
+  },
+  {
+    name: "Jackson Mikalic",
+    title: "",
+    twitterHandle: "@macrojack21",
+    imageUrl: "/images/speakers/jackson_mikalic.jpg",
+    description: "Jackson (MacroJack) is a Bitcoin advocate and rationalist focused on the future of Bitcoin financial services. He currently works at Onramp Bitcoin, hosts The Last Trade Podcast, and authors the Sound Money, Sound Life newsletter. With over 12,000 followers on X, he shares insights on sound money and cryptocurrency." +
+        "\n",
     stats: "",
     active: true
   },
@@ -318,17 +346,17 @@ const Speakers: React.FC = () => {
             return renderSpeaker(speaker, index);
           })}
         </div>
-        <h2 className="mt-24">Musicians</h2>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-8">
-          {musicians.map((musician, index) => {
-            return renderSpeaker(musician, index);
-          })}
-        </div>
         <h2 className="mt-24">Virtual Speakers</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-8">
         {remoteSpeakers.map((speaker, index) => {
           return renderSpeaker(speaker, index);
         })}
+        </div>
+        <h2 className="mt-24">Rhythm & Movement</h2>
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-8">
+          {rhythmMovement.map((musician:Speaker, index:number) => {
+            return renderSpeaker(musician, index);
+          })}
         </div>
         <h4 className="mt-12">...stay tuned for the reveal of more names that will sweeten your journey down the rabbit hole!</h4>
         <AnimatePresence>

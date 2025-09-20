@@ -9,7 +9,8 @@ import BuyNow from "@/app/components/buy-now-button";
 interface Speaker {
   name: string;
   title: string;
-  twitterHandle: string;
+  instagramHandle?: string;
+  twitterHandle?: string;
   imageUrl: string;
   description: string;
   stats: string;
@@ -38,9 +39,9 @@ const rhythmMovement: Speaker[] = [
   {
     name: "Vince Brown",
     title: "",
-    twitterHandle: "",
+    instagramHandle: "vince_amp117",
     imageUrl: "/images/speakers/vince_brown.jpg",
-    description: "Vincent is a seasoned parkour coach and the head coach and co-owner of Adaptive Movement Parkour in Hartford, Connecticut. Vincent has gone through the full student-to-teacher parkour journey with AM Parkour and is excited to join the ARDV Coaching team to share his passion and experience.",
+    description: "Vincent is a seasoned parkour coach and the head coach and co-owner of Adaptive Movement Parkour in Hartford, Connecticut. Vincent has gone through the full student-to-teacher parkour journey with AM Parkour and is excited to join the ARDV Coaching team to share his passion and experience. He began in a graduate program in Denver. After falling into the Bitcoin rabbit hole, he left academia behind to focus on sound money and the practice of movement, via Parkour. Today, those two pursuits, financial sovereignty and physical freedom, have been his main focus.",
     stats: "",
     active: true
   },
@@ -339,6 +340,15 @@ const Speakers: React.FC = () => {
     }
   }
 
+  const socialLink = (speaker:Speaker) => {
+    if (speaker.instagramHandle) {
+      return `https://www.instagram.com/${speaker.instagramHandle}`
+    }
+    if (speaker.twitterHandle) {
+      return `https://x.com/${speaker.twitterHandle}`
+    }
+  }
+
   return (
       <SectionWrapper id="speakers" title="Participants & Panelists">
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mb-8">
@@ -364,8 +374,9 @@ const Speakers: React.FC = () => {
               <Modal isOpen={!!selectedSpeaker} onClose={() => setSelectedSpeaker(null)}>
                 <h2 className="text-3xl font-bold mb-4 text-warmer">{selectedSpeaker.name}</h2>
                 <p className="text-2xl mb-4 text-gray-300">
-                  <a href={`https://x.com/${selectedSpeaker.twitterHandle}`}
-                     target="_blank">{selectedSpeaker.twitterHandle}</a>
+                  <a href={socialLink(selectedSpeaker)} target="_blank">
+                    {selectedSpeaker.twitterHandle || selectedSpeaker.instagramHandle}
+                  </a>
                 </p>
                 <p className="text-neutrallight mb-4">{selectedSpeaker.description}</p>
               </Modal>

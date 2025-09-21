@@ -1,15 +1,19 @@
 import React, {FC} from "react";
 import Link from 'next/link';
 
+import './_karaoke-home.scss';
+
 const Page: FC = async () => {
 
   return (
-      <div>
-        <h1>KAROAKE!</h1>
-        <p>Are you a...</p>
-        <Link href="/karaoke/honeybadger">Honey Badger?</Link>
-        <p>or a...</p>
-        <Link href="/karaoke/cyberhornet">Cyber Hornet?</Link>
+      <div className="karaoke-home">
+        <h1 className="text-5xl">WAVEFORM KAROAKE!</h1>
+        <div>
+          <p className="text-3xl">Are you a...</p>
+          <Link className="text-4xl" href="/karaoke/honeybadger">Honey Badger?</Link>
+          <p className="text-3xl">or a...</p>
+          <Link className="text-4xl" href="/karaoke/cyberhornet">Cyber Hornet?</Link>
+        </div>
       </div>
   );
 

@@ -2,8 +2,7 @@ import React from "react";
 import {GoogleAnalytics} from '@next/third-parties/google';
 import '../styles/index.scss';
 import type {Metadata} from 'next';
-import Navbar from './components/navbar/navbar';
-import Footer from './components/footer/footer';
+import Chrome from './components/chrome';
 
 export const metadata: Metadata = {
   title: 'Camp Nakamoto',
@@ -33,16 +32,9 @@ export default function RootLayout({children}: { children: React.ReactNode; }) {
             rel="stylesheet"/>
       </head>
       <body className="site-wrapper">
-      <div className="background-container">
-        <div className="stars"></div>
-        <div className="twinkling"></div>
-        <div className="clouds"></div>
-      </div>
-      <Navbar/>
-      <main className="pt-16">
+      <Chrome>
         {children}
-      </main>
-      <Footer/>
+      </Chrome>
       </body>
       <GoogleAnalytics gaId="G-NBC94XV74K"/>
       <script async src="https://eocampaign1.com/form/4f05de42-9a31-11ef-94c4-432dbbbbc6f0.js"

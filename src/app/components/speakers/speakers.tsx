@@ -164,6 +164,15 @@ const speakers: Speaker[] = [
     active: true
   },
   {
+    name: "Surfer Jim",
+    title: "",
+    twitterHandle: "@surferjimw",
+    imageUrl: "/images/speakers/surfer_jim.jpg",
+    description: "Surfer Jim - a lifelong surfer and entrepreneur, is a Bitcoin maximalist who champions BTC as humanity's escape from fiat control, serving as a lead advisor at The Bitcoin Adviser with expertise in secure, multi-sig custody solutions. Since at least 2021, he’s been vocal on X about Bitcoin’s transformative power, crediting it for personal wins like funding his dream wedding in 2025. He rejects altcoins and blockchain hype, urging adoption with a blunt, stoked vibe: “#Bitcoin IS humanity's only hope.” DM him at surferjim@thebitcoinadviser.com for custody guidance.",
+    stats: "",
+    active: true
+  },
+  {
     name: "Luke Broyles",
     title: "",
     twitterHandle: "@luke_broyles",

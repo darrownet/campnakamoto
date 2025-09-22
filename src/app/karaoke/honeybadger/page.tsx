@@ -1,11 +1,9 @@
-import React, {FC} from "react";
+import KaraokeTypeSelector from '../../components/karaoke/karaoke-type-selector/karaoke-type-selector';
 
-const Page: FC = async () => {
-
+export default function Home() {
   return (
-      <h1>HONEY BADGER!</h1>
+      <div style={{width:'100%', height:'100vh', position:'relative'}}>
+        <iframe src="https://wave-form.app/honeybadgers" style={{width:'100%', height: '100%', border: 0}} title="Wave Form App"></iframe>
+      </div>
   );
-
 }
-
-export default Page;

@@ -70,15 +70,13 @@ hr {
 .karaoke-root {
   display: flex;
   justify-content: center;
-  //color: white;
+  color: white;
   width: 100%;
   margin: 0;
   padding: 0;
-  //font-family: 'Kabel Black', serif;
-  //font-feature-settings: 'salt' on;
-  //background: red;
-  //box-sizing: border-box;
-  //
+  font-family: 'Kabel Black', serif;
+  font-feature-settings: 'salt' on;
+  box-sizing: border-box;
   background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #96c93d);
   background-size: 400%;
   animation: gradientCycle 10s ease infinite;

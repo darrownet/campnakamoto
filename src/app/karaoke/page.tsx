@@ -7,11 +7,15 @@ const Page: FC = async () => {
 
   return (
       <div className="karaoke-home">
-        <h1 className="text-5xl">WAVEFORM KAROAKE!</h1>
+        <h1 className="text-5xl leading-tight">
+          <div>WAVEFORM KARAOKE</div>
+          <div>at</div>
+          <div>CAMP NAKMOTO!</div>
+        </h1>
         <div>
           <p className="text-3xl">Are you a...</p>
           <Link className="text-4xl" href="/karaoke/honeybadger">Honey Badger?</Link>
-          <p className="text-3xl">or a...</p>
+          <div className="text-3xl my-2">or a...</div>
           <Link className="text-4xl" href="/karaoke/cyberhornet">Cyber Hornet?</Link>
         </div>
       </div>

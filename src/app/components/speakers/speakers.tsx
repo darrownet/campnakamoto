@@ -85,16 +85,6 @@ const remoteSpeakers: Speaker[] = [
     active: true
   },
   {
-    name: "Greg Foss",
-    title: "",
-    twitterHandle: "@FossGregfoss",
-    imageUrl: "/images/speakers/greg_foss.jpg",
-    description: "35+ years in risk management. McGill & Cornell alum. Bitcoin advocate, viewing it as a critical IQ test in risk strategy. Believes all fiats are \"melting ice cubes.\" Passionate about freedom and family. #forthekids" +
-        "\n",
-    stats: "",
-    active: true
-  },
-  {
     name: "Ben Justman",
     title: "",
     twitterHandle: "@benjustman",
@@ -120,15 +110,6 @@ const remoteSpeakers: Speaker[] = [
     twitterHandle: "@sebbunney",
     imageUrl: "/images/speakers/seb_bunney.jpg",
     description: "Seb Bunney is a Bitcoin educator, author, and co-founder of Looking Glass Education, a platform focused on financial literacy. He's authored The Hidden Cost of Money, and co-authored B is for Bitcoin. As Chief Information Officer at Block Rewards, he integrates Bitcoin into payroll and benefits. A contributor to Bitcoin Magazine, he advocates for Bitcoin as a solution to fiat system flaws, emphasizing decentralization and sound money. His newsletter, The Qi of Self-Sovereignty, delves into aligning money with personal values.",
-    stats: "",
-    active: true
-  },
-  {
-    name: "DJ Valerie B LOVE",
-    title: "",
-    twitterHandle: "@djvalerieblove",
-    imageUrl: "/images/speakers/dj_valerie.jpg",
-    description: "DJ Valerie B LOVE is a multifaceted entrepreneur, executive coach, and DJ who founded the 11x LOVE Method to help exhausted executives find harmony across all life areas. She hosts the \"DJ Valerie B LOVE Show,\" a podcast dedicated to truth-seekers and freedom-lovers, focusing on Bitcoin, peace, and personal growth. With her background in music, Valerie has performed globally at events like Burning Man and the Olympics.",
     stats: "",
     active: true
   },

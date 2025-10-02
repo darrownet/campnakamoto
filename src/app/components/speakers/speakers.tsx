@@ -58,6 +58,15 @@ const rhythmMovement: Speaker[] = [
 
 const remoteSpeakers: Speaker[] = [
   {
+    name: "Mark Moss",
+    title: "",
+    twitterHandle: "@1MarkMoss",
+    imageUrl: "/images/speakers/mark_moss.jpg",
+    description: "Mark Moss is your go-to guide in the wild world of finance, with a special twist of Bitcoin advocacy. From his home base in San Clemente, California, Mark has navigated the dot-com bubble, real estate, and now rides the Bitcoin wave, sharing his journey through \"The Mark Moss Show\" and Market Disruptors on YouTube. He's not just about understanding the crypto-verse; he's about changing how you think about money.",
+    stats: "",
+    active: true
+  },
+  {
     name: "Natalie Brunell",
     title: "",
     twitterHandle: "@natbrunell",
@@ -135,15 +144,6 @@ const remoteSpeakers: Speaker[] = [
 ];
 
 const speakers: Speaker[] = [
-  {
-    name: "Mark Moss",
-    title: "",
-    twitterHandle: "@1MarkMoss",
-    imageUrl: "/images/speakers/mark_moss.jpg",
-    description: "Mark Moss is your go-to guide in the wild world of finance, with a special twist of Bitcoin advocacy. From his home base in San Clemente, California, Mark has navigated the dot-com bubble, real estate, and now rides the Bitcoin wave, sharing his journey through \"The Mark Moss Show\" and Market Disruptors on YouTube. He's not just about understanding the crypto-verse; he's about changing how you think about money.",
-    stats: "",
-    active: true
-  },
   {
     name: "Larry Lepard",
     title: "",

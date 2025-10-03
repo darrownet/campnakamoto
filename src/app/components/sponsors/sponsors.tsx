@@ -108,6 +108,12 @@ const sponsors: Sponsor[] = [
     websiteUrl: 'https://bitcoinwell.com/'
   },
   {
+    name: 'Waveform Karaoke',
+    imageUrl: '/images/sponsors/logo-waveform_karaoke.png',
+    twitterUrl: 'https://x.com/waveformeng',
+    websiteUrl: 'https://waveformkaraoke.com/'
+  },
+  {
     name: 'Free Market Kids',
     imageUrl: '/images/sponsors/logo-free_market_kids.png',
     twitterUrl: 'https://x.com/freemarketkids',

@@ -25,15 +25,15 @@ const Navbar: React.FC = () => {
       <nav className="nav-wrapper">
         <div className="nav-container">
           <Link href="/" className="site-title">Camp Nakamoto</Link>
-          <ul className="hidden md:flex nav-links">
-            {navItems.map((item) => (
-                <li className="nav-link" key={item.href}>
-                  <Link href={item.href}>
-                    {item.label}
-                  </Link>
-                </li>
-            ))}
-          </ul>
+          {/*<ul className="hidden md:flex nav-links">*/}
+          {/*  {navItems.map((item) => (*/}
+          {/*      <li className="nav-link" key={item.href}>*/}
+          {/*        <Link href={item.href}>*/}
+          {/*          {item.label}*/}
+          {/*        </Link>*/}
+          {/*      </li>*/}
+          {/*  ))}*/}
+          {/*</ul>*/}
           <div className="mass-adoption">
             <a className="mass-adoption-badge" href="https://www.massadoption.net/" target="_blank">
               <span>Brought to you by MassAdoption</span>

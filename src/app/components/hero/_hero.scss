@@ -40,6 +40,9 @@
 
 .hero-countdown {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background: white;
   text-shadow: none;
   padding: 10px 50px;
@@ -47,8 +50,14 @@
   font-size: 18px;
   line-height: 20px;
   border-radius: 24px;
-  width: fit-content;
+  //width: fit-content;
+  width: 66.6%;
+  text-align: center;
   margin: 0 auto 30px;
+}
+
+.next-year-msg {
+  width: 100%;
 }
 
 .hero-upsell {

@@ -127,16 +127,18 @@ const Hero: React.FC = () => {
               animate={{opacity: 1, y: 0}}
               transition={{duration: 0.8, delay: 0.2}}
           >
-            Friday, October 10<sup>th</sup> – Monday, October 13<sup>th</sup> 2025
+            Thursday June 18<sup>th</sup> – Sunday June 21<sup>st</sup> 2026
           </motion.h3>
 
           <div className="hero-countdown">
-            <div className="text-center">
-              <span>{timeLeft.days} days </span>
-              <span>{timeLeft.hours} hours </span>
-              <span>{timeLeft.minutes} minutes </span>
-            </div>
-            <div className="ml-4 text-center underline">ONLY 17 out of 100 Tickets Left!</div>
+            {/*<div className="text-center">*/}
+            {/*  <span>{timeLeft.days} days </span>*/}
+            {/*  <span>{timeLeft.hours} hours </span>*/}
+            {/*  <span>{timeLeft.minutes} minutes </span>*/}
+            {/*</div>*/}
+            {/*<div className="ml-4 text-center underline">ONLY 100 out of 100 Tickets Left!</div>*/}
+            <div className="next-year-msg">Lock in your spot and secure your early bird discount by making your registration deposit before November 1.</div>
+            <h4 className="m-3">Stay tuned for additional detail!</h4>
           </div>
 
           <div className="flex justify-center items-center">
@@ -147,35 +149,35 @@ const Hero: React.FC = () => {
                 initial={{opacity: 0, scale: 0.8}}
                 animate={{opacity: 1, scale: 1}}
             >
-              <a target="_blank" href="https://pay.zaprite.com/pl_GEPFAc4TVD" rel="noopener noreferrer">
-                Buy Tickets
+              <a target="_blank" href="https://pay.zaprite.com/pl_9MMjOHA4DI" rel="noopener noreferrer">
+                Make Deposit
               </a>
             </motion.button>
           </div>
 
-          <div className="hero-upsell">
-            <h4>Camp Nakamoto Ticket Includes:</h4>
-            <table>
-              <tbody>
-                <tr>
-                  <td>3 Days & 4 Nights, All-Inclusive</td>
-                  <td>Gourmet Food & Beverages</td>
-                </tr>
-                <tr>
-                  <td>Cattleman’s Feast & New England Lobster Clambake</td>
-                  <td>Hassle-Free Parking & Ferry Access</td>
-                </tr>
-                <tr>
-                  <td>Exciting Activities & Entertainment</td>
-                  <td>Live Music Performances</td>
-                </tr>
-                <tr>
-                  <td>Exclusive Bitcoin Education Sessions</td>
-                  <td>Unforgettable Memories</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+          {/*<div className="hero-upsell">*/}
+          {/*  <h4>Camp Nakamoto Ticket Includes:</h4>*/}
+          {/*  <table>*/}
+          {/*    <tbody>*/}
+          {/*      <tr>*/}
+          {/*        <td>3 Days & 4 Nights, All-Inclusive</td>*/}
+          {/*        <td>Gourmet Food & Beverages</td>*/}
+          {/*      </tr>*/}
+          {/*      <tr>*/}
+          {/*        <td>Cattleman’s Feast & New England Lobster Clambake</td>*/}
+          {/*        <td>Hassle-Free Parking & Ferry Access</td>*/}
+          {/*      </tr>*/}
+          {/*      <tr>*/}
+          {/*        <td>Exciting Activities & Entertainment</td>*/}
+          {/*        <td>Live Music Performances</td>*/}
+          {/*      </tr>*/}
+          {/*      <tr>*/}
+          {/*        <td>Exclusive Bitcoin Education Sessions</td>*/}
+          {/*        <td>Unforgettable Memories</td>*/}
+          {/*      </tr>*/}
+          {/*    </tbody>*/}
+          {/*  </table>*/}
+          {/*</div>*/}
 
         </div>
       </div>

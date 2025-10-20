@@ -15,13 +15,13 @@ const Home: React.FC = () => {
       <>
         <div className="camp-nakamoto">
           <Hero/>
-          <Location/>
-          <Speakers/>
-          <Activities/>
-          <Housing/>
-          <Dining/>
-          <Faqs/>
-          <Sponsors/>
+          {/*<Location/>*/}
+          {/*<Speakers/>*/}
+          {/*<Activities/>*/}
+          {/*<Housing/>*/}
+          {/*<Dining/>*/}
+          {/*<Faqs/>*/}
+          {/*<Sponsors/>*/}
         </div>
         <div className="bitcoin-treasury-stamp">
           <img src="/images/bitcoin_treasury_stamp.png"/>
